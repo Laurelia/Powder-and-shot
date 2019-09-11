@@ -1,7 +1,7 @@
 {
 	"genericName": "Plug Bayonet",
 	"description": ".",
-	"cost": {"food": 0, "wood": 0, "stone": 0},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 100, "coin": 50},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "helmet_corinthian_crest.png",
