@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>brit</Civ>
+    <SpecificName>Fortress</SpecificName>
+    <Tooltip>Train heroes, champions, and siege weapons. Research siege weapon improvements. Garrison: 20.</Tooltip>
+    <History>.</History>
+  </Identity>
+  <Footprint>
+    <Square width="45.5" depth="50.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="45.5" depth="50.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_infantry_musketeer
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/anglo/fortress.xml</Actor>
+	<FoundationActor>structures/fndn_6x4.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>45.6</Length>
+    <Orientation>0.5</Orientation>
+  </WallPiece>
+</Entity>

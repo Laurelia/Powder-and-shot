@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_cathedral">
+  <Footprint>
+    <Square width="43.0" depth="59.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4400</Max>
+  </Health>
+  <Identity>
+    <Civ>brit</Civ>
+    <SpecificName>Cathedral</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="43.0" depth="59.0"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/carolingian/wonder.xml</Actor>
+  </VisualActor>
+</Entity>
