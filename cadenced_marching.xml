@@ -1,0 +1,12 @@
+{
+	"type": "formation",
+	"affects": ["Citizen Infantry"],
+        "requiredTechnology": "unit_speed_cadenced_marching",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 },
+	],
+
+	"auraName": "Cadenced Marching",
+	"auraDescription": "15% faster marching"
+	"stackable": "false"
+}
