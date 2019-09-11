@@ -1,0 +1,13 @@
+{
+	"genericName": "Percussion Caps",
+	"description": ".",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "coin": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in city phase",
+	"icon": "accuracy_bolt.png",
+	"researchTime": 40,
+	"tooltip": "+5% accuracy for Gunpowder units.",
+	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.95}],
+	"affects": ["Gunpowder"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
