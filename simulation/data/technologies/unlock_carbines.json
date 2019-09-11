@@ -1,11 +1,11 @@
 {
 	"genericName": "Carbines",
 	"description": ".",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 250, "coin": 250},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "helmet_corinthian_crest.png",
-	"researchTime": 0,
+	"researchTime": 100,
 	"tooltip": "Unlock carbine wielding units.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
