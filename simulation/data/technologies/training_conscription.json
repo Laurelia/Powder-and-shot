@@ -1,13 +1,15 @@
 {
 	"genericName": "Conscription",
-	"description": "Significantly increase training speed of soldiers at the barracks by training them in large batches or battalions.",
-	"cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0, "coin": 250 },
-	"requirements": { "all": [{ "tech": "phase_city" }, { "notciv": "pers" }] },
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "fist_spear.png",
+	"description": "Calling up infantry levies in time of war helps bolster the ranks of a king's army.",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "clenched_fist.png",
 	"researchTime": 40,
-	"tooltip": "Faster batch training speed for the Barracks.",
-	"modifications": [{ "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }],
-	"affects": ["Barracks"],
+	"tooltip": "All infantry and cavalry soldiers -10% train time. Unlocks Levy Infantry and Levy Cavalry.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.9}
+	],
+	"affects": ["Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
