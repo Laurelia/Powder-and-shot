@@ -1,0 +1,15 @@
+{
+	"genericName": "Heated Shot",
+	"description": ".",
+	"cost": {"food": 200, "wood": 200, "stone": 100, "metal": 100, "coin": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "fire_arrows.png",	
+  "researchTime": 40,
+	"tooltip": "Towers and forts deal bonus damage to ships.",
+	"modifications": [
+		{"value": "Attack/Bonuses/BonusShipRanged/Classes/Ship/Multiplier", "add": 3.0}
+	],
+	"affects": ["Defense"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
