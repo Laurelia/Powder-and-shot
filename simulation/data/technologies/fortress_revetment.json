@@ -1,8 +1,8 @@
 {
-	"genericName": "Stronghold",
+	"genericName": "Revetment",
 	"description": ".",
-	"cost": {"food": 0, "stone": 500, "glory": 500, "metal": 0},
-	"requirements": {"tech": "phase_imperial"},
+	"cost": {"food": 0, "stone": 500, "coin": 500, "metal": 0},
+	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "celtic_tower.png",
 	"researchTime": 40,
