@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 18,
+	"affects": ["Infantry"],
+	"modifications": [
+		{ "value": "Attack/Capture/Value", "add": 1.0 }
+		],
+
+	"auraName": "Siege Expert",
+	"auraDescription": "Capture faster with Infantry"
+}

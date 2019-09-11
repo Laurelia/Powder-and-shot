@@ -1,0 +1,17 @@
+{
+	"type": "range",
+
+	"radius": 15,
+
+	"affects": ["Soldier"],
+
+	"modifications": [
+
+		{ "value": "Armour/Pierce", "add": 2.0 }
+		
+	],
+
+	"auraName": "Arrow Cover",
+	
+	"auraDescription": "+2 Pierce Armour for Soldiers."
+}

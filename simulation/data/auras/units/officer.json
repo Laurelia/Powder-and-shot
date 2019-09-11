@@ -1,0 +1,16 @@
+{
+	"type": "range",
+	"radius":15,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.0 },
+		{ "value": "Attack/Hack", "multiply": 0.95 },
+		{ "value": "Attack/Pierce", "multiply": 0.95 },
+		{ "value": "Attack/Crush", "multiply": 0.95 }
+		
+	],
+
+	"auraName": "Officer coordinatation",
+	"auraDescription": "-5 %Attack for enemy soldier, while under aura."
+}

@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 7,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 0.90  }
+	],
+	"auraName": "Fear the BEAST",
+	"auraDescription": "-12% health for enemy soldier, while under his aura."
+}

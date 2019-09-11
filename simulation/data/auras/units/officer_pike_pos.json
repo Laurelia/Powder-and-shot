@@ -1,0 +1,13 @@
+{
+	"type": "formation",
+	"affects": ["Citizen Pike"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 },
+		{ "value": "Attack/Hack", "multiply": 1.15 },
+		{ "value": "Attack/Pierce", "multiply": 1.15 },
+		{ "value": "Attack/Crush", "multiply": 1.15 }
+	],
+
+	"auraName": "Pike Officer coordination",
+	"auraDescription": "15% more attack and 15% faster for Citizen Pike Soldier in same formation"
+}

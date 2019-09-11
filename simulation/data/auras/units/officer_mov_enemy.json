@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius":15,
+	"affects": ["Infantry", "Cavalry"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.7 }
+		
+	],
+	"auraName": "Outmaneuvering",
+	"auraDescription": "30% slower Movement for enemy Infantry and Cavalry."
+}

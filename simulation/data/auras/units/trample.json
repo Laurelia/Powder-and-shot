@@ -1,0 +1,11 @@
+{
+  "affectedPlayers": ["Enemy"],
+  "affects": ["Soldier"],
+  "auraDescription": "Trample Damage:Nearby enemy soldiers gradually lose health. 8HP/s",
+  "auraName": "Trample their feet",
+  "modifications": [
+    {"value": "Health/RegenRate", "add": -15.0}
+  ],
+  "radius": 6,
+  "type": "range"
+}

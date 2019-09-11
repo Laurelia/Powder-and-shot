@@ -1,0 +1,14 @@
+{
+	"type": "formation",
+	"affects": ["Champion"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Hack", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Pierce", "multiply": 1.1 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	
+		
+		],
+	"auraName": "Elite commando",
+	"auraDescription": "All Champions get 10% more health, +10% Faster WalkSpeed and +10% more Attack  when in the same Formation. "
+}
