@@ -1,0 +1,15 @@
+{
+	"genericName": "Public Schooling",
+	"description": ".",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "coin": 250},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "political_face.png",
+	"researchTime": 90,
+	"tooltip": "All technologies research 10% faster.",
+	"modifications": [
+		{"value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9},
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
