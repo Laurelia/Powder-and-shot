@@ -49,16 +49,18 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_healer_b
+      units/{civ}_support_deacon_b
+      units/{civ}_support_pastor_b
+      units/{civ}_support_huguenot_b
+      units/{civ}_support_priest_b
+      units/{civ}_support_preacher_b
+      units/{civ}_support_hegumen_b
+      units/{civ}_support_imam_b
+      units/{civ}_support_rabbi_b
+      units/{civ}_support_missionary_b
+      units/{civ}_support_inquisitor_b
+      units/{civ}_support_conquistador_b
     </Entities>
-    <Technologies datatype="tokens">
-      heal_range
-      heal_range_2
-      heal_rate
-      heal_rate_2
-      heal_temple
-      health_regen_units
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>
