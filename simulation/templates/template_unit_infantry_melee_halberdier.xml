@@ -23,7 +23,8 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Spear</VisibleClasses>
+    <VisibleClasses datatype="tokens">Halberd Heavy</VisibleClasses>
+    <Classes datatype="tokens">Heavyinfantry</Classes>
     <GenericName>Halberdier</GenericName>
     <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
   </Identity>
