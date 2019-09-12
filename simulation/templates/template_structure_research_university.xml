@@ -15,9 +15,9 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Library</GenericName>
+    <GenericName>University</GenericName>
     <Classes datatype="tokens">-ConquestCritical</Classes>
-    <Tooltip>Research special technologies.</Tooltip>
+    <Tooltip>Research academic technologies.</Tooltip>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
   <Loot>
@@ -31,7 +31,10 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      successors/special_hellenistic_metropolis
+      gas_lighting
+      buildtime_structures_cranes
+      buildtime_strcutures_projections
+      buildtime_structures_windlass
     </Technologies>
   </ProductionQueue>
   <Sound>
