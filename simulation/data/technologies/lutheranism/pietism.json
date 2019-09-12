@@ -1,0 +1,19 @@
+{
+	"genericName": "Pietism",
+	"description": ".",
+	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 0, "faith": 600},
+	"requirements": {"all": [{"tech": "phase_town"}, {"tech": "lutheranism"}]},
+	"requirementsTooltip": "Requires Lutheranism.",
+  "icon": "structures/temple.png"
+	"researchTime": 90,
+	"tooltip": "Preachers cost half as much.",
+	"modifications": [
+		{"value": "Cost/Resources/wood", "multiply": 0.5}
+    {"value": "Cost/Resources/food", "multiply": 0.5}
+    {"value": "Cost/Resources/metal", "multiply": 0.5}
+    {"value": "Cost/Resources/coin", "multiply": 0.5}
+    {"value": "Cost/Resources/faith", "multiply": 0.5}
+	],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
