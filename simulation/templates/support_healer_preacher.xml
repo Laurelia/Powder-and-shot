@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  </Cost>
+  <Heal>
+    <Rate>1250</Rate>
+  </Heal>
+  <Identity>
+    <SpecificName>Preacher</SpecificName>
+    <RequiredTechnology>religion_lutheranism</RequiredTechnology>
+    <Tooltip>Heal units.</Tooltip>
+    <VisibleClasses datatype="tokens">Healer</VisibleClasses>
+  </Identity>
+</Entity>
