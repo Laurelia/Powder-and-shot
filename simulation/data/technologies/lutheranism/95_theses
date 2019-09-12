@@ -1,0 +1,19 @@
+{
+	"genericName": "95 Theses",
+	"description": ".",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "faith": 500},
+	"requirements": {"all": [{"tech": "phase_town"}, {"tech": "lutheranism"}]},
+	"requirementsTooltip": "Requires Lutheranism.",
+  "icon": "structures/temple.png"
+	"researchTime": 90,
+	"tooltip": "Reduces the cost of all religious technologies by 10%.",
+	"modifications": [
+		{"value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.9}
+	],
+	"affects": ["Religious"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
