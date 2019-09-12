@@ -27,7 +27,7 @@
     <Rank>Basic</Rank>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Heal units.</Tooltip>
-    <VisibleClasses datatype="tokens">Healer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Religious Healer Cleric</VisibleClasses>
   </Identity>
   <Loot>
     <xp>20</xp>
