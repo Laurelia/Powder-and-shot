@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
   <Identity>
-    <Civ>zapo</Civ>
+    <Civ>aztec</Civ>
     <GenericName>Field</GenericName>
-    <SpecificName>Rudxiiba Binii Xuba</SpecificName>
+    <SpecificName>Mil-pa</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/plot_field_tropic_maize.xml</Actor>
