@@ -14,11 +14,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>zapo</Civ>
-    <GenericName>Barracks</GenericName>
-    <SpecificName> Naj Ba’ate’il</SpecificName>
-    <Tooltip>Train Zapotec citizen-soldiers. Research improvements for Zapotec units.</Tooltip>
-    <Icon>structures/pers_barracks.png</Icon>
+    <Civ>aztec</Civ>    
+    <SpecificName>Nechicolcalmeh</SpecificName>
+	  <GenericName>War Hut</GenericName>
+	  <Icon>structures/mesoamerican_barracks.png</Icon>
+    <Tooltip>Train Aztec citizen-soldiers. Research improvements for Aztec units.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
