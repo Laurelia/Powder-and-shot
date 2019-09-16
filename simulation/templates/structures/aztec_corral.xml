@@ -8,9 +8,9 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>zapo</Civ>
-  <GenericName>Corral</GenericName>
-    <SpecificName>Kúuchil</SpecificName>
+    <Civ>aztec</Civ>
+    <GenericName>Corral</GenericName>
+    <SpecificName>Tepancalli</SpecificName>  
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="14.0"/>
