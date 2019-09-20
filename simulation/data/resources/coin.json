@@ -1,11 +1,12 @@
 {
 	"code": "coin",
 	"name": "Coin",
-	"description": "Tax gathered from citizens.",
+	"description": "Acquire with Trade, Taxes, or Industry. Used for training Champions, hiring Mercenaries, buying Slaves, and purchasing raw materials at the Market.",
 	"order": 5,
 	"subtypes": {
-		"silver": "Silver"
+		"taxes": "Taxes",
+		"trade": "Trade"
 	},
 	"truePrice": 100,
-	"aiAnalysisInfluenceGroup": "ignore"
+	"aiAnalysisInfluenceGroup": "sparse"
 }
