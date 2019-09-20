@@ -27,9 +27,8 @@
     <Max>1000</Max>
   </Health>
   <Identity>
-    <Civ>gaia</Civ>
     <SpecificName>Watchtower</SpecificName>
-    <GenericName>Wooden Watch Tower</GenericName>
+    <GenericName>WatchTower</GenericName>
     <VisibleClasses datatype="tokens">-StoneWall Palisade Tower</VisibleClasses>
     <Icon>structures/palisade_wall.png</Icon>
   </Identity>
@@ -38,6 +37,17 @@
     <ControlPersist/>
   </Obstruction>
   <TerritoryInfluence disable=""/>
+   <Upgrade>
+    <Outpost>
+      <Entity>structures/{civ}_outpost</Entity>
+      <Tooltip>Outposts have double health and slower loyalty drain.</Tooltip>
+	  <RequiredTechnology>phase_town</RequiredTechnology>
+      <Cost>
+		   <wood>50</wood>
+      </Cost>
+      <Time>20</Time>
+    </Outpost>
+  </Upgrade>
   <VisualActor>
     <Actor>props/special/palisade_rocks_watchtower.xml</Actor>
   </VisualActor>
