@@ -1,0 +1,11 @@
+{
+	"code": "faith",
+	"name": "Faith",
+	"description": "Gather by praying at temples. Used for researching Technologies, Priests, and building Religious Buildings.",
+	"order": 6,
+	"subtypes": {
+		"praise": "Prayer"
+	},
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "ignore"
+}
