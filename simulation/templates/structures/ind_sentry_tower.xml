@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_sentry">
+  <GarrisonHolder>
+    <Max>1</Max>
+    <List datatype="tokens">Ranged+Infantry</List>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+        <VisibleGarrisonAllowedClasses datatype="tokens">Infantry+Ranged</VisibleGarrisonAllowedClasses>
+      </Archer1>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>ind</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mauryas/wooden_tower.xml</Actor>
+  </VisualActor>
+</Entity>
