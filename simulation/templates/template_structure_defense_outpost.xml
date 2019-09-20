@@ -40,8 +40,8 @@
     <VisibleGarrisonPoints>
       <Archer1>
         <X>0</X>
-	      <Y>9.5</Y>
-	      <Z>0</Z>
+	<Y>9.5</Y>
+	<Z>0</Z>
         <VisibleGarrisonAllowedClasses datatype="tokens">
           Infantry+Ranged
         </VisibleGarrisonAllowedClasses>
@@ -90,18 +90,6 @@
   <TerritoryDecay>
     <DecayRate>2</DecayRate>
   </TerritoryDecay>
-  <Upgrade>
-    <Outpost>
-      <Entity>structures/{civ}_outpost_stone</Entity>
-      <Tooltip>Stone Outposts have double health and slower loyalty drain.</Tooltip>
-	  <RequiredTechnology>phase_town</RequiredTechnology>
-      <Cost>
-        <stone>50</stone>
-		<wood>0</wood>
-      </Cost>
-      <Time>20</Time>
-    </Outpost>
-  </Upgrade>
   <Vision>
     <Range>70</Range>
   </Vision>
