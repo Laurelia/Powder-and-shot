@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Field"],
+	"modifications": [
+       {"value": "Health/Max", "multiply": 1.2}
+	],
+	"auraDescription" : "Nearby Farms +20% health.",
+	"auraName": "Ardiosmanae",
+	"overlayIcon": "art/textures/ui/session/auras/farming.png"
+}
+
