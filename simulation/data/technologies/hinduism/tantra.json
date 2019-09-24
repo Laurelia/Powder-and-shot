@@ -1,0 +1,18 @@
+{
+	"genericName": "Tantric Fertility Rituals",
+	"description": ".",
+	"cost": {"food": 300, "faith": 200},
+	"requirements": {"all": [
+		{"tech": "phase_village"},
+		{"tech": "hinduism"},
+	]},
+	"icon": "hindu_kali.png",
+	"researchTime": 60,
+	"tooltip": "Citizens train 10% faster.",
+	"requirementsTooltip": "Requires Hinduism.",
+  	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.9}
+	],
+	"affects": ["Citizen"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
