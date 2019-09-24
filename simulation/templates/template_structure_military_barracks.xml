@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
   <BuildRestrictions>
-    <Category>ArcheryRange</Category>
+    <Category>Barracks</Category>
   </BuildRestrictions>
   <Cost>
     <BuildTime>100</BuildTime>
@@ -30,8 +30,8 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Militia barracks</GenericName>
-    <Tooltip>Train militia infantry. Research training improvements for militia infantry.</Tooltip>
+    <GenericName>Barracks</GenericName>
+    <Tooltip>Train infantrymen. Research training improvements for infantrymen.</Tooltip>
     <Icon>structures/range.png</Icon>
 	<Classes datatype="tokens">Archery</Classes>
     <VisibleClasses datatype="tokens">
@@ -52,13 +52,21 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-	  units/{civ}_infantry_javelinist_b
-	  units/{civ}_infantry_slinger_b
-	  units/{civ}_infantry_archer_b
-	  units/{civ}_infantry_spearman_b
-	  units/{civ}_infantry_pikeman_b
-	  units/{civ}_infantry_swordsman_b
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_pikeman_b
+      units/{civ}_infantry_swordsman_b
+      units/{civ}_infantry_javelinist_b
+      units/{civ}_infantry_slinger_b
+      units/{civ}_infantry_archer_b
+      units/{civ}_cavalry_swordsman_b
+      units/{civ}_cavalry_spearman_b
+      units/{civ}_cavalry_javelinist_b
+      units/{civ}_cavalry_archer_b
     </Entities>
+    <Technologies datatype="tokens">
+      heal_barracks
+      training_conscription
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>
