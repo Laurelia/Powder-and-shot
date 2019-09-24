@@ -30,7 +30,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">-ConquestCritical</Classes>
-    <GenericName>Blacksmith</GenericName>
+    <GenericName>Arsenal</GenericName>
     <Icon>structures/blacksmith.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Tooltip>Research weapons and armor improvements.</Tooltip>
