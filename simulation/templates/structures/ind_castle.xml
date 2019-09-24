@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_castle">
+  <GarrisonHolder>
+    <Max>150</Max>
+    <List datatype="tokens">
+      Ranged
+      Infantry
+      Cavalry
+      Elephant
+      Ranged
+      Catapult
+    </List>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>10.5</X>
+        <Y>13.75</Y>
+        <Z>-9.5</Z>
+      </Archer1>
+      <Archer2>
+        <X>-10.5</X>
+        <Y>13.75</Y>
+        <Z>9.5</Z>
+      </Archer2>
+      <Archer3>
+        <X>-10.5</X>
+        <Y>13.75</Y>
+        <Z>-9.5</Z>
+      </Archer3>
+      <Archer4>
+        <X>10.5</X>
+        <Y>13.75</Y>
+        <Z>9.5</Z>
+        <VisibleGarrisonAllowedClasses datatype="tokens">
+          BoltShooter+Ranged
+        </VisibleGarrisonAllowedClasses>
+      </Archer4>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>ind</Civ>
+    <SpecificName>Durg</SpecificName>
+    <Tooltip>Train heroes and champion units.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_infantry
+    </Entities>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/mauryans/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>22.0</Length>
+  </WallPiece>
+</Entity>
