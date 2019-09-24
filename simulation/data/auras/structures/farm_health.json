@@ -6,7 +6,7 @@
        {"value": "Health/Max", "multiply": 1.2}
 	],
 	"auraDescription" : "Nearby Farms +20% health.",
-	"auraName": "Ardiosmanae",
+	"auraName": "Water Supply",
 	"overlayIcon": "art/textures/ui/session/auras/farming.png"
 }
 
