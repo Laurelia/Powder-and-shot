@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+  	<AlertRaiser>
+    	 <List datatype="tokens">Citizen</List>
+    	 <RaiseAlertRange>60</RaiseAlertRange>
+    	 <EndOfAlertRange>100</EndOfAlertRange>
+    	 <SearchRange>100</SearchRange>
+  	</AlertRaiser>
+	<BuildRestrictions>
+    	 <Territory>own neutral</Territory>
+    
+ 	 <PlacementType>shore</PlacementType>
+    
+ 	 </BuildRestrictions>
+  	<Capturable>
+           <CapturePoints>300</CapturePoints>
+        </Capturable>
+	<Auras datatype="tokens">
+	  structures/saw_mill
+	</Auras>
+	<Cost>
+		<BuildTime>100</BuildTime>
+	        <PopulationBonus>2</PopulationBonus>
+		<wood>100</wood>
+                <metal>25</metal>
+	</Cost>
+	<Footprint>
+		<Square width="20.0" depth="17.0"/>
+		<Height>8.0</Height>
+	</Footprint>
+  	<GarrisonHolder disable=""/>
+	<Identity>
+    	 <Classes datatype="tokens">DropsiteWood ConquestCritical</Classes>
+    	 <GenericName>Sawmill</GenericName>
+	 <Icon>structures/rotarymill.png</Icon>
+    	 <Tooltip>Dropsite for wood. Boosts Lumbering rates and researches lumbering improvements.</Tooltip>
+    	 <VisibleClasses datatype="tokens">Village Sawmill</VisibleClasses>
+	</Identity>
+	<Obstruction>
+		<Static width="20.0" depth="17.0"/>
+	</Obstruction>
+  	<ProductionQueue>
+   	  <BatchTimeModifier>0.7</BatchTimeModifier>
+   	  <Technologies datatype="tokens">
+  	    pair_gather_01
+  	    pair_gather_02
+  	    pair_gather_03
+	    gather_lumbering_bowsaw
+	    gather_lumbering_twomansaw
+	    gather_capacity_wheelbarrow
+	    gather_capacity_handcarts
+   	  </Technologies>
+  	</ProductionQueue>
+  	<RallyPoint disable=""/>
+        <ResourceDropsite>
+    
+                <Types>wood </Types>
+                <Sharable>true</Sharable>
+  
+        </ResourceDropsite>
+  	<Vision>
+   	  <Range>20</Range>
+  	</Vision>
+	<VisualActor>
+		<Actor>structures/carolingian/watermill.xml</Actor>
+		<FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
+	</VisualActor>
+</Entity>
+
+
+
