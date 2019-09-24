@@ -3,8 +3,7 @@
 	"description": ".",
 	"cost": {"food": 300, "faith": 200},
 	"requirements": {"all": [
-		{"tech": "phase_village"},
-		{"tech": "hinduism"},
+		{"tech": "hinduism"}
 	]},
 	"icon": "hindu_kali.png",
 	"researchTime": 60,
