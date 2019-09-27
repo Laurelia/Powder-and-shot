@@ -1,0 +1,8 @@
+{
+	"name": "Powder_and_Shot",
+	"version": "0.0.01",
+	"label": "Powder and Shot",
+	"url": "https://github.com/Laurelia/Powder-and-shot",
+	"description": ".",
+	"dependencies": ["0ad=0.0.23"]
+  }
