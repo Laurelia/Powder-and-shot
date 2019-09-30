@@ -5,8 +5,8 @@
     <variant file="quadraped/base_elephant_asian_armor.xml">
       <mesh>skeletal/maur_elephant_siege.dae</mesh>
       <props>
-        <prop actor="units/indians/elephantry_howdah_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/turret_sele_champ_ele.xml" attachpoint="turret"/>
+        <prop actor="units/indians/elephantry_howdah_r.xml" attachpoint="turret"/>
+        <prop actor="props/units/turret_sele_ele.xml" attachpoint="turret"/>
       </props>
       <textures>
         <texture file="skeletal/maur_elephant_siege.png" name="baseTex"/>
