@@ -14,11 +14,10 @@
     <Height>15.0</Height>
   </Footprint>
   <Identity>
-    <Civ>kush</Civ>
-    <GenericName>Small Pyramid</GenericName>
-    <SpecificName>mr</SpecificName>
-    <VisibleClasses datatype="tokens">-City Town Pyramid</VisibleClasses>
-    <Classes datatype="tokens">Pyramid PyramidSmall</Classes>
+    <Civ>eth</Civ>
+    <GenericName>Granary</GenericName>
+    <SpecificName>Girach’a</SpecificName>
+    <VisibleClasses datatype="tokens">-City Town Granary</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/kush_pyramid_small.png</Icon>
   </Identity>
