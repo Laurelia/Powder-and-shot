@@ -7,8 +7,6 @@
       <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
-        <prop actor="props/units/quivers/union_belt.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
       </props>
