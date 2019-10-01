@@ -1,0 +1,12 @@
+{
+	"genericName": "Jesuit Missions",
+	"description": "."
+	"cost": {"coin": 750, "faith": 750},
+	"researchTime": 40,
+	"requirements": {"all": [{"tech": "religion_catholicism"}, {"tech": "catholicism/spread_missions"}]},
+	"requirementsTooltip": "Requires Catholicism.",
+	"supersedes": "catholicism/spread_missions",
+	"icon": "enlightenment.png",
+	"tooltip": "Unlocks the Jesuit Mission, which trains Jesuit Priests.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
