@@ -1,0 +1,13 @@
+{
+	"genericName": "Devotion",
+	"description": ".",
+	"cost": {"faith": 500},
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"supersedes": "prayer_rate_2",
+	"requirements": {"tech": "prayer_rate_2"},
+	"tooltip": "Gatherers +15% Prayer rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/faith.prayer", "multiply": 1.15}],
+	"affects": ["Gatherer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
