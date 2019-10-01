@@ -1,0 +1,13 @@
+{
+	"genericName": "Veneration",
+	"description": ".",
+	"cost": {"faith": 800},
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"supersedes": "prayer_rate_3",
+	"requirements": {"tech": "prayer_rate_3"},
+	"tooltip": "Gatherers +10% Prayer rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/faith.prayer", "multiply": 1.1}],
+	"affects": ["Gatherer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
