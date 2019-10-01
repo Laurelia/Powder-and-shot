@@ -1,0 +1,13 @@
+{
+	"genericName": "Spread Missions",
+	"description": "."
+	"cost": {"coin": 300, "faith": 300},
+	"researchTime": 40,
+	"requirements": {"tech": "religion_catholicism"},
+	"requirementsTooltip": "Requires Catholicism.",
+	"icon": "enlightenment.png",
+	"modifications": [{"value": "Cost/Wood", "Add": -100}],
+	"affects": ["TradingPost"],
+	"tooltip": "Trading Posts cost -100 Wood.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
