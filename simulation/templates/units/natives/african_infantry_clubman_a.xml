@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/african_infantry_clubman_b">
+<Entity parent="units/natives/african_infantry_clubman_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/african_infantry_clubman_e</Entity>
+    <Entity>units/natives/african_infantry_clubman_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/kushites/infantry_clubman_a.xml</Actor>
