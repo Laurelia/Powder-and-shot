@@ -1,0 +1,13 @@
+{
+	"genericName": "Inquisition",
+	"description": "."
+	"cost": {"coin": 300, "faith": 250},
+	"researchTime": 40,
+	"requirements": {"tech": "religion_catholicism"},
+	"requirementsTooltip": "Requires Catholicism.",
+	"icon": "enlightenment.png",
+	"modifications": [{"value": "Vision/Range", "Add": 3}],
+	"affects": ["Priest"],
+	"tooltip": ".",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
