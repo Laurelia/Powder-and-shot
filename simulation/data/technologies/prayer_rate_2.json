@@ -1,0 +1,13 @@
+{
+	"genericName": "Piety",
+	"description": ".",
+	"cost": {"faith": 250},
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"supersedes": "prayer_rate_1",
+	"requirements": {"tech": "prayer_rate_1"},
+	"tooltip": "Gatherers +15% Prayer rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/faith.prayer", "multiply": 1.15}],
+	"affects": ["Gatherer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
