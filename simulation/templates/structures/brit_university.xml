@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_research_university">
+  <Identity>
+    <Civ>brit</Civ>
+    <SpecificName>University</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/macedonians/library.xml</Actor>
+  </VisualActor>
+</Entity>
