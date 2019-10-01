@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_barn">
+  <Identity>
+    <Civ>brit</Civ>
+    <GenericName>Barn</GenericName>
+    <SpecificName>Barn</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/eyecandy_norse_barn.xml</Actor>
+  </VisualActor>
+</Entity>
