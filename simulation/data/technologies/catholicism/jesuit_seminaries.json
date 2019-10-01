@@ -1,0 +1,16 @@
+{
+	"genericName": "Jesuit Seminaries",
+	"description": "."
+	"cost": {"coin": 250, "faith": 500},
+	"researchTime": 40,
+  "supersedes": "techs_temple_speed"
+	"icon": "enlightenment.png",
+	"requirements": {"tech": "catholicism"},
+	"requirementsTooltip": "Requires Catholicism.",
+	"modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
+	],
+  "affects": ["Abbey"]
+	"tooltip": "Reduce research time of religious techs by 10%.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
