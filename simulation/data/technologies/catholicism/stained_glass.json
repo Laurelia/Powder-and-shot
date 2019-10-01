@@ -1,0 +1,14 @@
+{
+	"genericName": "Stained Glass",
+	"description": "."
+	"cost": {"wood": 500 , "faith": 300 },
+	"supersedes": "heal_temple",
+	"researchTime": 40,
+	"requirements": {"tech": "religion_catholicism"},
+	"requirementsTooltip": "Requires Catholicism.",
+	"icon": "enlightenment.png",
+	"modifications": [{"value": "Health/Max", "Add": 1000}],
+	"affects": ["ReligiousBuilding"],
+	"tooltip": "Abbeys, Cathedrals, and Missions get stained windows, giving them +1000 extra hitpoints.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
