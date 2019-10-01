@@ -1,0 +1,11 @@
+{
+	"genericName": "Belief",
+	"description": ".",
+	"cost": {"faith": 100},
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"tooltip": "Gatherers +20% Prayer rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/faith.prayer", "multiply": 1.2}],
+	"affects": ["Gatherer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
