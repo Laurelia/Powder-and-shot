@@ -1,0 +1,13 @@
+{
+	"genericName": "Theology",
+	"description": "."
+	"cost": {"coin": 100, "faith": 200},
+	"researchTime": 40,
+	"requirements": {"tech": "prayer_rate_1"},
+	"icon": "enlightenment.png",
+	"modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
+	],
+	"tooltip": "Reduce research time of temple techs by 10%.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
