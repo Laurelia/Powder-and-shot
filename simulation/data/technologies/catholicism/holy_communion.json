@@ -1,0 +1,13 @@
+{
+	"genericName": "Holy Communion",
+	"description": "."
+	"cost": {"coin": 600},
+	"researchTime": 40,
+	"requirements": {"tech": "religion_catholicism"},
+	"requirementsTooltip": "Requires Catholicism.",
+	"icon": "enlightenment.png",
+	"modifications": [{"value": "Cost/Faith", "Replace": 0}],
+	"affects": ["Priest"],
+	"tooltip": "Priests no longer cost Faith.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
