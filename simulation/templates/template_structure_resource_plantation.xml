@@ -24,9 +24,9 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Field</GenericName>
-    <VisibleClasses datatype="tokens">Field</VisibleClasses>
-    <Tooltip>Harvest vegetables for food. Max gatherers: 5.</Tooltip>
+    <GenericName>Plantation</GenericName>
+    <VisibleClasses datatype="tokens">Field Plantation</VisibleClasses>
+    <Tooltip>Harvest cash crops for coin. Max gatherers: 5.</Tooltip>
     <Icon>structures/field.png</Icon>
   </Identity>
   <Loot>
