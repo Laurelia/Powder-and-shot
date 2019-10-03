@@ -1,9 +1,9 @@
 {
 	"genericName": "Theology",
 	"description": "."
-	"cost": {"coin": 100, "faith": 200},
+	"cost": { "coin": 100, "faith": 200 },
 	"researchTime": 40,
-	"requirements": {"tech": "prayer_rate_1"},
+	"requirements": { "tech": "prayer_rate_1" },
 	"icon": "enlightenment.png",
 	"modifications": [
 		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
