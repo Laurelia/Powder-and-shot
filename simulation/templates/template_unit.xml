@@ -85,12 +85,15 @@
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
       <treasure>1</treasure>
+      <faith.prayer>0.2</faith.prayer>
     </Rates>
     <Capacities>
       <food>10</food>
       <wood>10</wood>
       <stone>10</stone>
       <metal>10</metal>
+      <coin>10</coin>
+      <faith>1</faith>
     </Capacities>
   </ResourceGatherer>
   <ResourceTrickle>
