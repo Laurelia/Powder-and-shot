@@ -24,14 +24,14 @@
     <Tooltip>Train priests and other religious units. Research unique technologies. Garrison units to heal them at a quick rate.</Tooltip>
     <Icon>structures/temple_epic.png</Icon>
     <Classes datatype="tokens">Religious Cathedral</Classes>
-    <VisibleClasses datatype="tokens">City -Town</VisibleClasses>
+    <VisibleClasses datatype="tokens">Temple City -Town</VisibleClasses>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
     <stone>250</stone>
   </Loot>
   <VisualActor>
-    <Actor>structures/carolingian/lorsch_abbey.xml</Actor>
+    <Actor>structures/carolingian/wonder.xml</Actor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
   </VisualActor>
 </Entity>
