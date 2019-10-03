@@ -7,7 +7,7 @@
 	"requirementsTooltip": "Religions can be chosen during The Reformation.",
 	"icon": "enlightenment.png",
 	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0},
-			  {"value": "Promotion/Entity", "replace": template_structure_religious_temple_abbey}
+			  {"value": "Promotion/Entity", "replace": structures/brit_temple_catholic}],
 	"affects": ["Temple"],
 	"tooltip": "Choose Catholicism as your religion.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
