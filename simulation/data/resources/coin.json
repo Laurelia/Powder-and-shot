@@ -1,11 +1,15 @@
 {
 	"code": "coin",
 	"name": "Coin",
-	"description": "Acquire with Trade, Taxes, or Industry. Used for training Champions, hiring Mercenaries, buying Slaves, and purchasing raw materials at the Market.",
+	"description": "Acquire with Trade, Taxes, or Industry. Used for equiping Units, hiring Mercenaries, buying Slaves, and purchasing raw materials at the Market.",
 	"order": 5,
 	"subtypes": {
 		"taxes": "Taxes",
-		"trade": "Trade"
+		"trade": "Trade",
+		"fruit": "Olives",
+		"grain": "Spices",
+		"meat": "Whale Oil",
+		"ore": "Precious Metals"
 	},
 	"truePrice": 100,
 	"aiAnalysisInfluenceGroup": "sparse"
