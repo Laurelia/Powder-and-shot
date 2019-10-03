@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_geo_mineral">
+  <Identity>
+    <GenericName>Gold Mine</GenericName>
+    <Tooltip>Mine gold for coin.</Tooltip>
+  </Identity>
+  <ResourceSupply>
+    <Type>coin.ore</Type>
+  </ResourceSupply>
+</Entity>
