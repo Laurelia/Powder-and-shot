@@ -1,4 +1,4 @@
-﻿{
+{
 	"genericName": "Shortened Carbines",
 	"description": ".",
 	"cost": {"coin": 200, "wood": 200, "stone": 0, "metal": 0},
@@ -8,7 +8,8 @@
 	"researchTime": 60,
 	"tooltip": "Carbine units firing rate +5% faster.",
 	"modifications": [
-		{"value": "Attack/Ranged/RepeatTime", "multiply": 0.95},
+		{"value": "Attack/Ranged/RepeatTime", "multiply": 0.95}
+	]
 	"affects": ["Carbine"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
