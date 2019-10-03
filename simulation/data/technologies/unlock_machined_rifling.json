@@ -15,6 +15,6 @@
 		{ "value": "Promotion/Entity", "replace": units/{civ}_infantry_rifleman_a, "affects": "Advanced" },
 		{ "value": "Promotion/Entity", "replace": units/{civ}_infantry_rifleman_e, "affects": "Elite" }
 	],
+	"affects": ["Skirmisher"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
-	"affects": ["Skirmisher"]
 }
