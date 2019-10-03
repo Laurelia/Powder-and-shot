@@ -46,7 +46,7 @@
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
     <Amount>Infinity</Amount>
-    <Type>coin.cashcrops</Type>
+    <Type>coin.grain</Type>
     <MaxGatherers>5</MaxGatherers>
     <DiminishingReturns>0.90</DiminishingReturns>
   </ResourceSupply>
