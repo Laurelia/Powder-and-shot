@@ -6,8 +6,7 @@
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Religions can be chosen during The Reformation.",
 	"icon": "enlightenment.png",
-	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0},
-			  {"value": "Promotion/Entity", "replace": structures/brit_temple_catholic}],
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
 	"affects": ["Temple"],
 	"tooltip": "Choose Catholicism as your religion.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
