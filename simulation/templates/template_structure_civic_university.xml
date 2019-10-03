@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_civic">
   <Auras datatype="tokens">
     structures/library
-	structures/pop_bonus_civic
   </Auras>
   <BuildRestrictions>
     <Category>Library</Category>
@@ -35,6 +34,8 @@
       buildtime_structures_cranes
       buildtime_strcutures_projections
       buildtime_structures_windlass
+      health_walls_bastion
+      health_structures_masonry
     </Technologies>
   </ProductionQueue>
   <Sound>
