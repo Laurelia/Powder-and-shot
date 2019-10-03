@@ -1,6 +1,5 @@
 {
 	"genericName": "Infantry Breastplate",
-				},
 	"description": ".",
 	"cost": {"food": 0, "wood": 600, "stone": 0, "metal": 500},
 	"requirements": {"tech": "phase_town"},
