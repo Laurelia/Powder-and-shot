@@ -6,7 +6,7 @@
 	"requirements": { "tech": "prayer_rate_1" },
 	"icon": "enlightenment.png",
 	"modifications": [
-		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
+		{ "value": "ProductionQueue/TechCostMultiplier/Time", "multiply": 0.9 }
 	],
 	"affects": ["Temple"],
 	"tooltip": "Reduce research time of temple techs by 10%.",
