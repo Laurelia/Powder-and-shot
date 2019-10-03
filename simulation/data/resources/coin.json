@@ -6,10 +6,8 @@
 	"subtypes": {
 		"taxes": "Taxes",
 		"trade": "Trade",
-		"fruit": "Olives",
 		"grain": "Cash Crops",
-		"meat": "Whale Oil",
-		"ore": "Precious Metals"
+		"ore": "Gold"
 	},
 	"truePrice": 100,
 	"aiAnalysisInfluenceGroup": "sparse"
