@@ -1,0 +1,11 @@
+{
+	"genericName": "Anatomy",
+	"description": ".",
+	"cost": {"food": 280, "wood": 25, "stone": 0, "metal": 75, "coin": 120},
+	"icon": "bandage.png",
+	"researchTime": 40,
+	"tooltip": "+10 health for all units.",
+	"modifications": [{"value": "Health/Max", "add": 10}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
