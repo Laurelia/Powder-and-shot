@@ -6,15 +6,6 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_cuirass_empire.png",
 	"researchTime": 90,
-	"tooltip": "Unlock Rifle units. Upgrade Skirmishers into Riflemen.",
-	"modifications": [
-		{ "value": "Promotion/RequiredXp", "replace": 0, "affects": "Basic" },
-		{ "value": "Promotion/RequiredXp", "replace": 0, "affects": "Advanced" }
-		{ "value": "Promotion/RequiredXp", "replace": 0, "affects": "Elite" }
-		{ "value": "Promotion/Entity", "replace": units/{civ}_infantry_rifleman_b, "affects": "Basic" },
-		{ "value": "Promotion/Entity", "replace": units/{civ}_infantry_rifleman_a, "affects": "Advanced" },
-		{ "value": "Promotion/Entity", "replace": units/{civ}_infantry_rifleman_e, "affects": "Elite" }
-	],
-	"affects": ["Skirmisher"],
+	"tooltip": "Unlock Rifle units.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
