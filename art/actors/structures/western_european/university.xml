@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant name="Catholic Abbey">
+		<variant name="University">
 			<mesh>structural/caro_abbey.dae</mesh>
 			<textures>
 				<texture file="structural/caro_struct_b.png" name="baseTex"/>
