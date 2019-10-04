@@ -1,7 +1,7 @@
 {
 	"genericName": "Catholicism",
 	"description": "."
-	"cost": {"faith": 0},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "faith": 0},
 	"researchTime": 0,
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Religions can be chosen during The Reformation.",
