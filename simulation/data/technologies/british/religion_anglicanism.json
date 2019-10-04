@@ -1,0 +1,15 @@
+{
+	"genericName": "Anglicanism",
+	"description": ".",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "enlightenment.png",
+	"researchTime": 0,
+	"tooltip": ".",
+	"modifications": [
+		{"value": "Promotion1/RequiredXP", "replace": "0"}
+	],
+	"affects": ["Temple"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
