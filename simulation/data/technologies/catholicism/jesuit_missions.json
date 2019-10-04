@@ -1,6 +1,6 @@
 {
 	"genericName": "Jesuit Missions",
-	"description": "."
+	"description": ".",
 	"cost": {"coin": 750, "faith": 750},
 	"researchTime": 40,
 	"requirements": {"all": [{"tech": "religion_catholicism"}, {"tech": "catholicism/spread_missions"}]},
