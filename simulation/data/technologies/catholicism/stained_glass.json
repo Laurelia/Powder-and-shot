@@ -1,6 +1,6 @@
 {
 	"genericName": "Stained Glass",
-	"description": "."
+	"description": ".",
 	"cost": {"wood": 500 , "faith": 300 },
 	"supersedes": "heal_temple",
 	"researchTime": 40,
