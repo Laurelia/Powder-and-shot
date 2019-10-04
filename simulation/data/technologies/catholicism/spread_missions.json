@@ -1,6 +1,6 @@
 {
 	"genericName": "Spread Missions",
-	"description": "."
+	"description": ".",
 	"cost": {"coin": 300, "faith": 300},
 	"researchTime": 40,
 	"requirements": {"tech": "religion_catholicism"},
