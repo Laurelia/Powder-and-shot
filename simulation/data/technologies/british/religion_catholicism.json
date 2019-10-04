@@ -1,13 +1,15 @@
 {
 	"genericName": "Catholicism",
-	"description": "."
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "faith": 0},
-	"researchTime": 0,
+	"description": ".",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Religions can be chosen during The Reformation.",
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "enlightenment.png",
-	"modifications": [{"value": "Promotion2/RequiredXp", "replace": 0}],
+	"researchTime": 0,
+	"tooltip": ".",
+	"modifications": [
+		{"value": "Promotion3/RequiredXP", "replace": "0"}
+	],
 	"affects": ["Temple"],
-	"tooltip": "Choose Catholicism as your religion.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
