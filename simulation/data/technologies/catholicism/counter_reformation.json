@@ -1,6 +1,6 @@
 {
 	"genericName": "Counter-Reformation",
-	"description": "."
+	"description": ".",
 	"cost": {"coin": 600, "faith": 1000},
 	"researchTime": 40,
 	"requirements": {"all": [{"tech": "religion_catholicism"}, {"tech": "catholicism/inquisition"}]},
