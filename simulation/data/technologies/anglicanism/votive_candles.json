@@ -1,14 +1,14 @@
 {
-	"genericName": "Second Wall",
+	"genericName": "Votive Candles",
 	"description": ".",
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "faith": 200},
 	"requirements": {"all": [{"tech": "phase_town"}, {"tech": "anglicanism"}]},
 	"requirementsTooltip": "Requires Anglicanism.",
-  "icon": "structures/temple.png"
+        "icon": "structures/temple.png"
 	"researchTime": 90,
 	"tooltip": "Support units gain +3 vision range.",
 	"modifications": [
-		{"value": "Vision/Range", "add": 3},
+		{"value": "Vision/Range", "add": 3}
 	],
 	"affects": ["Support"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
