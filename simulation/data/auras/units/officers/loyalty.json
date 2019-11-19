@@ -1,0 +1,10 @@
+{
+	"type": "formation",
+	"affects": ["Unit", "Structure"],
+	"modifications": [
+	  {"value": "Capturable/CapturePoints", "multiply": 1.5}
+	],
+
+	"auraName": "Loyalty",
+	"auraDescription": "All units +50% capture points when in this officer's formation"
+}
