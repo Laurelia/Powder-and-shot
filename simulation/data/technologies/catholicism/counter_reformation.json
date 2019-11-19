@@ -5,7 +5,7 @@
 	"researchTime": 40,
 	"requirements": {"all": [{"tech": "religion_catholicism"}, {"tech": "catholicism/inquisition"}]},
 	"requirementsTooltip": "Requires Inquisition.",
-	"supersedes": "inquisition",
+	"supersedes": "catholicism/inquisition",
 	"icon": "enlightenment.png",
 	"modifications": [{"value": "Attack/Capture/MaxRange", "Add": 5}],
 	"affects": ["Priest"],
