@@ -1,6 +1,5 @@
 {
-	"type": "formation"
-	"radius":15,
+	"type": "formation",
 	"affects": ["Soldier"],
 	"modifications": [
 
