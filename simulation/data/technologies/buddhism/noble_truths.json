@@ -1,0 +1,15 @@
+{
+	"genericName": "Four Noble Truths",
+	"description": "Your monks and Bhikkhu regenerate faster.",
+	"cost": { "faith": 1200, "wood": 0, "stone": 0, "coin": 600 },
+	"requirements": {"all": [{"tech": "buddhism"}]},
+	"requirementsTooltip": "Requires Buddhism.",
+	"icon": "asclepius_rod.png",
+	"researchTime": 40,
+	"tooltip": "Your monks and Bhikkhu regenerate faster.",
+	"modifications": [
+		{ "value": "Health/IdleRegenRate", "add": 0.5 }
+	],
+	"affects": ["Monk Bhikku"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
