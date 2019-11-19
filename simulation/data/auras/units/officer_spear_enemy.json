@@ -1,16 +1,13 @@
 {
-	"type": "range",
+	"type": "formation"
 	"radius":15,
 	"affects": ["Soldier"],
-	"affectedPlayers": ["Enemy"],
 	"modifications": [
 
-		{ "value": "Attack/Hack", "multiply": 0.9 },
-		{ "value": "Attack/Pierce", "multiply": 0.9 },
-		{ "value": "Attack/Crush", "multiply": 0.9 }
+		{ "value": "Attack/Capture/Value", "add": 2 }
 		
 	],
 
-	"auraName": "Spear controol",
-	"auraDescription": " -10% attack for enemy Units under aura."
+	"auraName": "Siege Master",
+	"auraDescription": "Soldiers +2 capture attack when in the same formation as this officer."
 }
