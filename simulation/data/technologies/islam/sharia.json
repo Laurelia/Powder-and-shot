@@ -1,0 +1,13 @@
+{
+	"genericName": "Sharia law",
+	"description": ".",
+	"cost": {"coin": 300, "faith": 200},
+	"requirements": {"tech": "islam"},
+	"requirementsTooltip": "Requires Islam.",
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"tooltip": "Imams +15 Health.",
+	"modifications": [{"value": "Health/Max", "add": 15}],
+	"affects": ["Imam"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
