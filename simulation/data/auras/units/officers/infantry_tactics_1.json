@@ -1,0 +1,14 @@
+{
+	"type": "formation",
+	"affects": ["Infantry"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Crush", "multiply": 1.1 },	
+		{ "value": "Attack/Ranged/Hack", "multiply": 1.1 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Ranged/Crush", "multiply": 1.1 }	
+	],
+	"auraName": "Infantry Tactics",
+	"auraDescription": "Infantry Units in Formation deal +10% damage."
+}
