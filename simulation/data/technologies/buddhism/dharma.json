@@ -1,0 +1,13 @@
+{
+	"genericName": "Dharma",
+	"description": ".",
+	"cost": {"wood": 500, "faith": 300},
+	"researchTime": 40,
+	"requirements": {"all": [{"tech": "buddhism"}]},
+	"requirementsTooltip": "Requires Buddhism.",
+	"icon": "enlightenment.png",
+	"modifications": [{"value": "Health/Max", "multiply": 1.60}],
+	"affects": ["Brahmin"],
+	"tooltip": "Your Bhikkus get +60% health.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
