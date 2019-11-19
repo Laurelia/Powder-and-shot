@@ -8,5 +8,5 @@
 		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 }
 	],
 	"auraName": "Innovative Command",
-	"auraDescription": "All units in his formation +15% speed and +1 all armor."
+	"auraDescription": "All units in formation +15% speed and +1 all armor."
 }
