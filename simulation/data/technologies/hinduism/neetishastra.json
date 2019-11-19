@@ -1,9 +1,9 @@
 {
 	"genericName": "Neetishastra",
-	"description": "."
+	"description": ".",
 	"cost": {"coin": 600, "faith": 1200},
 	"researchTime": 40,
-  "supersedes": "research_speed_theology"
+  "supersedes": "research_speed_theology",
 	"icon": "enlightenment.png",
 	"modifications": [
 		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
