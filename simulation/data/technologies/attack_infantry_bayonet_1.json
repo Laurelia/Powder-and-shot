@@ -1,0 +1,14 @@
+{
+	"genericName": "Socket Bayonet",
+	"description": ".",
+	"cost": {"wood": 0, "stone": 0, "metal": 200, "coin": 500},
+  "supersedes": "unlock_plug_bayonet",
+	"researchTime": 40,
+	"requirements": {"tech": "unlock_plug_bayonet"},
+	"requirementsTooltip": "Requires Plug Bayonet.",
+	"icon": "sword.png",
+	"tooltip": "Line infantry may switch to bayonets instantly.",
+	"modifications": [{"value": "Cost/BuildTime", "replace": 0}],
+	"affects": ["Bayonet"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
