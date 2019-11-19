@@ -1,12 +1,11 @@
 {
-	"type": "range",
-	"radius": 60,
+	"type": "formation",
 	"affects": ["Soldier"],
 	"modifications": [
 		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 },
 		{ "value": "UnitMotion/Run/Speed", "multiply": 1.2 }
 	],
-	"auraDescription": "+20% movement speed for soldiers.",
-	"auraName": "Guerrilla Tactics",
+	"auraDescription": "+20% movement speed for soldiers while in the same formation.",
+	"auraName": "Mobility",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }
