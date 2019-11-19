@@ -1,0 +1,14 @@
+{
+	"type": "formation",
+	"affects": ["Soldier"],
+	"modifications": [
+
+		{ "value": "Attack/Capture/Value", "add": 2 },
+		{ "value": "Attack/Melee/RepeatTime", "multiply": 0.8 },
+		{ "value": "Attack/Ranged/RepeatTime", "multiply": 0.8 }
+		
+	],
+
+	"auraName": "Assault",
+	"auraDescription": "Soldiers +2 capture attack and +20% attack speed when in the same formation as this officer."
+}
