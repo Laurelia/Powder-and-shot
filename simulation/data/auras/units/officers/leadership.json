@@ -10,6 +10,6 @@
 		{ "value": "Attack/Ranged/Crush", "multiply": 1.2 },
 		{ "value": "Attack/Capture/Value", "add": 2 }
 	],
-	"auraName": "Inspiration",
+	"auraName": "Leadership",
 	"auraDescription": "+20% attack and +2 capture for soldiers in this formation.",
 }
