@@ -1,0 +1,11 @@
+{
+	"type": "formation",
+	"affects": ["Infantry"],
+	"modifications": [
+		{ "value": "Attack/Melee/RepeatTime", "multiply": 0.8 },
+		{ "value": "Attack/Ranged/RepeatTime", "multiply": 0.8 }
+	],
+	"auraName": "Reloading Exercises",
+	"auraDescription": "+20% attack speed for soldiers in this officer's formation."
+}
+
