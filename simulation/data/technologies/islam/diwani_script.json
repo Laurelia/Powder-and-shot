@@ -1,0 +1,15 @@
+{
+	"genericName": "Diwani Script",
+	"description": ".",
+	"cost": {"faith": 700, "wood": 0, "stone": 0, "metal": 0, "coin": 500},
+	"requirements": {"all": [{"tech": "islam"}]},
+	"requirementsTooltip": "Requires Islam.",
+	"icon": "enlightenment.png",
+	"researchTime": 90,
+	"tooltip": "Blueprints are read faster. All structures -15% build time.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.85}
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
