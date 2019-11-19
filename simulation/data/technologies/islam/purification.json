@@ -1,0 +1,14 @@
+{
+	"genericName": "Ritual Purification",
+  "specificName": "Wudu and Ghusl",
+	"description": "Ritual washing results in your citizens being cleaner and healthier.",
+	"cost": {"faith": 500, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "islam"},
+	"requirementsTooltip": "Requires Islam as your Religion.",
+	"icon": "enlightenment.png",
+	"researchTime": 20,
+	"tooltip": "+5% Health for organic units.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.05}],
+	"affects": ["Organic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
