@@ -1,0 +1,11 @@
+{
+	"type": "formation",
+	"affects": ["Light Infantry"],
+	"modifications": [
+		{ "value": "Attack/Ranged/MaxRange", "multiply": 1.2 }
+	],
+	"auraName": "Light Infantry Tactics",
+	"auraDescription": "+20% attack range for light infantry."
+}
+
+	
