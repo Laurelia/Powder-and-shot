@@ -17,7 +17,7 @@
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Identity>
-    <Civ>ind</Civ>
+    <Civ>maur</Civ>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryas/wooden_tower.xml</Actor>
