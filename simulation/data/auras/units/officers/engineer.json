@@ -1,0 +1,7 @@
+{
+	"type": "formation",
+	"auraName": "Engineer",
+	"auraDescription": "Artillery units in this officer's formation will slowly be repaired when idle.",
+	"modifications": [{"value": "Health/IdleRegenRate", "add": 0.5}],
+	"affects": ["Mechanical"]
+}
