@@ -6,5 +6,5 @@
 		{"value": "Health/Max", "multiply": 1.50}
 	],
 	"auraName": "Naval Commander",
-	"auraDescription": "When garrisoned inside a ship, his ship has +50% health."
+	"auraDescription": "When garrisoned inside a ship, the ship has +50% health."
 }
