@@ -39,7 +39,7 @@
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Identity>
-    <Civ>ind</Civ>
+    <Civ>maur</Civ>
     <SpecificName>Durg</SpecificName>
     <Tooltip>Train heroes and champion units.</Tooltip>
   </Identity>
