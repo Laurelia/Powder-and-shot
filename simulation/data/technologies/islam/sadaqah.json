@@ -1,0 +1,13 @@
+{
+	"genericName": "Sadaqah",
+	"description": "The voluntary giving of alms or charity.",
+	"cost": {"food": 200, "faith": 500},
+	"requirements": {"tech": "islam"},
+	"requirementsTooltip": "Requires Islam.",
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"tooltip": "Tithes cost 10% less faith.",
+	"modifications": [{"value": "Cost/Faith", "Multiply": 0.9}
+	"affects": ["Tithe"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
