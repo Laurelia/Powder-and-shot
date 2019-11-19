@@ -1,0 +1,13 @@
+{
+	"genericName": "Favorable Karma",
+	"description": "."
+	"cost": {"wood": 500, "faith": 300},
+	"researchTime": 40,
+	"requirements": {"all": [{"tech": "hinduism"}]},
+	"requirementsTooltip": "Requires Hinduism.",
+	"icon": "enlightenment.png",
+	"modifications": [{"value": "Health/Max", "multiply": 1.50}],
+	"affects": ["Brahmin"],
+	"tooltip": "Your Brahmins get +50% health.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
