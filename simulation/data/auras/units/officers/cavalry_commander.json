@@ -10,6 +10,6 @@
 		{"value": "Attack/Ranged/Crush", "multiply": 1.25}
 	],
 	"auraName": "Cavalry Commander",
-	"auraDescription": "Cavalry in formation +30% attack.",
+	"auraDescription": "Cavalry in formation +25% attack.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }
