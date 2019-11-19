@@ -5,6 +5,6 @@
 	"affects": ["Soldier"],
 	"modifications": [{ "value": "Promotion/RequiredXp", "multiply": 0.80 },
 				  { "value": "Attack/Capture/Value", "multiply": 1.25 }],
-	"auraName": "Encourage Troops",
+	"auraName": "Leadership",
 	"auraDescription": "+25% capture attack and -20% xp needed for promotion for nearby soldiers."
 }
