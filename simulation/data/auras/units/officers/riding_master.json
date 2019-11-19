@@ -1,0 +1,11 @@
+{
+	"type": "formation",
+	"affects": ["Cavalry"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.25 },
+		{ "value": "UnitMotion/Run/Speed", "multiply": 1.25 }
+	],
+	"auraDescription": "+25% movement speed for cavalry units while in the same formation.",
+	"auraName": "Riding Master",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}
