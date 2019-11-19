@@ -1,0 +1,13 @@
+{
+	"genericName": "Ramadan fasting",
+	"description": ".",
+	"cost": {"food": 100, "faith": 100},
+	"requirements": {"tech": "islam"},
+	"requirementsTooltip": "Requires Islam.",
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"tooltip": "Citizens go one month fasting. All units cost -5 Food..",
+	"modifications": [{"value": "Cost/Food", "Add": -5}
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
