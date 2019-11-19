@@ -1,0 +1,142 @@
+﻿{
+	"Code": "rus",
+	"Culture": "rus",
+	"Name": "Russians",
+	"Emblem": "session/portraits/emblems/emblem_gaul.png",
+	"History": ".",
+	"Music":[
+			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Russians",
+			"Description": "N/A",
+			"Technologies":
+			[
+				{
+					"Name":"Petrine Reforms",
+					"History":"",
+					"Description":"Turn all streltsy into musketeers"
+				},
+				{
+					"Name":"Cossack Host",
+					"History":"",
+					"Description":"Cossacks -25% train time"
+				},
+				{
+					"Name":"Bashkir Ponies",
+					"History":"",
+					"Description":"Cavalry +10% speed, +15% health"
+				},
+				{
+					"Name":"Boyars",
+					"History":"",
+					"Description":"All Cavalry +10% health, -10% train time, +10% cost"
+				},
+				{
+					"Name":"Cold Water Port",
+					"History":"",
+					"Description":"Warships -15% build time"
+				},
+				{
+					"Name":"Baltic Sea Fleet",
+					"History":"",
+					"Description":"Warship build limit increased"
+				}
+			],
+			"Heroes":
+			[
+
+				{
+					"Name": "Peter the Great",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?" 
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"All the Russias",
+			"History":".",
+			"Description":"+10% Population Cap."
+		},
+		{
+			"Name":"Scorched Earth",
+			"History":".",
+			"Description":"Russian Buildings do not provide loot."
+		}
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+		{
+			"Name":"Kremlin"
+			"Class":"",
+			"Emblem":"emblem.png",
+			"History": ".",
+			"Requirements":".",
+			"Phase":"Age of Discovery"
+			"Special":"Replaces Civic Center. Twice the health of a normal Civic Center"
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/rus_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/rus_kremlin" 
+		},
+		{
+			"Template": "units/rus_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/rus_infantry_pikeman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/rus_infantry_musketeer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/rus_cavalry_spearman_b" 
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+	],
+	"AINames":
+	[
+		"Peter the Great"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_infantry_melee_b": "units/rus_infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/rus_infantry_musketeer_b"
+	},
+	"SelectableInGameSetup": true
+}

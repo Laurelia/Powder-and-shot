@@ -1,0 +1,198 @@
+﻿{
+	"Name": "Ethiopians",
+	"Code": "eth",
+	"Culture":[ "african", "ethiopian" ],
+	"Region":[ "africa" ],
+	"History": ".",
+	"Emblem": "session/portraits/emblems/kushites.png",
+	
+	
+	"Music":[
+			{"File":"The_Blue_Nile.ogg", "Type":"peace"},
+			{"File":"African_Lions.ogg", "Type":"peace"},
+			{"File":"Warrior_Queen.ogg", "Type":"peace"},
+			{"File":"Watering_Hole.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Ethiopians",
+			"Description":".",
+			"Technologies":
+			[
+				{
+					"Name":"Kebra Nagast"
+					"History":"History.",
+					"Description":"Workers +10% gathering rate."
+				},
+				{
+					"Name":"Cattlemen",
+					"History":"History.",
+					"Description":"Batches of domestic Cattle train much faster."
+				},
+				{
+					"Name":"Gold Standard",
+					"History":"History.",
+					"Description": "Units and Technologies cost 10% less Coin"
+				},
+				{
+					"Name":"Ge'ez Script",
+					"History":"History.",
+					"Description": "Learning to read texts in this ancient African language makes your healers cheaper and stronger"
+				},
+				{
+                                        "Name":"Agricultural Settlements"
+                                        "History": ".",
+                                        "Description":Granaries can train Villagers"
+				},
+				{
+                                        "Name":"Imperial Road"
+                                        "History": ".",
+                                        "Description": "Traders are 10% faster"
+				},
+				{
+                        		"Name":"Tribal Folk Dances"
+                        		"History": ".",
+                        		"Description": "Tribal unit health and speed increased by 5%"
+				},
+				{
+					"Name":"Royal Baths",
+					"History":"History.",
+					"Description":"Officers and Imperial Guardmen +20% health."
+				},
+				{
+                                        "Name":"Multiracial Society"
+                                        "History": ".",
+                                        "Description": "Native units cost -10% less and you can train 10 more per village"
+				},
+				{
+                                        "Name":"Panafricanism"
+                                        "History": ".",
+                                        "Description": "Tribal unit attack and health increased by 5%"
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Haile Selassie",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"emblem.png",
+					"History":"History."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+                        "Name":"Rock-Hewn Architecture"
+                        "History": ".",
+                        "Description": "Buildings gain +10% health for each passing era"
+		},
+		
+                        "Name":"Solomonic Dynasty"
+                        "History": ".",
+                        "Description": "Research speed for religious technologies and Faith gather rates increased by 10%"
+		},
+		
+                        "Name":"Spirit of Adwa"
+                        "History": ".",
+                        "Description": "Your soldiers gain an attack bonus when they are near Ethiopian buildings"
+		},
+		{
+
+                        "Name":"Porters"
+                        "History": ".",
+                        "Description": "Citizen and Villager carrying capacity increases by 5 each era"
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Tribal Cantonment"
+			"Class":"",
+			"Emblem":"emblem.png",
+			"History": ".",
+			"Requirements":".",
+			"Phase":"Age of Discovery"
+			"Special":"Train African tribal warriors and villagers. Can be used as food dropsite"
+		},
+		{
+
+			"Name":"Granary"
+			"Class":"",
+			"Emblem":"emblem.png",
+			"History": ".",
+			"Requirements":".",
+			"Phase":"Age of Discovery"
+			"Special":"Nearby Gatherers +20% farming rate"
+		},
+		{
+                        "Name":"Lion of Judah"
+                        "Class":"",
+                        "Emblem":"emblem.png",
+                        "History": ".",
+                        "Requirements":".",
+                        "Phase":"The Enlightenment"
+                        "Special":"Increases nearby building hitpoints. Units can be tasked to pray here"
+		},
+		{
+                        "Name":"Hawilt"
+                        "Class":"",
+                        "Emblem":"emblem.png",
+                        "History": ".",
+                        "Requirements":".",
+                        "Phase":"Age of Discovery"
+                        "Special":"Passively generates faith"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/eth_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/eth_civil_centre"
+		},
+		{
+			"Template": "units/eth_support_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/eth_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/eth_infantry_bowmam_b",
+			"Count": 2
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/column_closed",
+		"special/formations/wedge"
+	],
+	"AINames":
+	[
+		"Haile Selassie"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/eth_infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/eth_infantry_bowman_b",
+		"skirmish/structures/default_house_10": "structures/{civ}_house",
+		"skirmish/structures/default_defense_tower": "structures/{civ}_defense_tower"
+	},
+	"SelectableInGameSetup": true
+}

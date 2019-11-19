@@ -1,0 +1,134 @@
+﻿{
+	"Code": "brit",
+	"Culture": "brit",
+	"Name": "British",
+	"Emblem": "session/portraits/emblems/emblem_gaul.png",
+	"History": ".",
+	"Music":[
+			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "British",
+			"Description": "N/A",
+			"Technologies":
+			[
+				{
+					"Name":"Hospital Ships",
+					"History":"?",
+					"Description":"Warships heal garrisoned units"
+				},
+				{
+					"Name":"Estates",
+					"History":".",
+					"Description":"House support +5 Population."
+				},
+				{
+					"Name":"Thin Red Line",
+					"History":".",
+					"Description":"Highlanders +25% health, -10% speed."
+				},
+				{
+					"Name":"Yeomen Cavalry",
+					"History":".",
+					"Description":"Cavalry Units +10% health, -10% training time, +1% cost."
+				},
+			],
+			"Heroes":
+			[
+
+				{
+					"Name": "Arthur Wellesley",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?" 
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		
+		{
+			"Name":"The Sun Never Sets",
+			"History":".",
+			"Description":"Territory influence increased by 10%."
+		},
+		{
+			"Name":"Rule Brittainina",
+			"History":".",
+			"Description":"Warship Build Limit increased."
+		},
+		{
+			"Name":"Industrial Revolution",
+			"History":".",
+			"Description":"Industrial Revolution is automaticly researched upon reaching the age of revolution."
+		},
+		{
+			"Name":"Parliamentarianism",
+			"History":".",
+			"Description":"The Government Center can be built in the Age of Discovery."
+		}
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/brit_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/brit_civil_centre" 
+		},
+		{
+			"Template": "units/brit_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/brit_infantry_pikeman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/brit_infantry_musketeer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/brit_cavalry_spearman_b" 
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+	],
+	"AINames":
+	[
+		"Pitt the younger"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_infantry_melee_b": "units/brit_infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/brit_infantry_musketeer_b"
+	},
+	"SelectableInGameSetup": true
+}

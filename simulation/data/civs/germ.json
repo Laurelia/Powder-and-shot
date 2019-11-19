@@ -1,0 +1,148 @@
+﻿{
+	"Code": "germ",
+	"Culture": "germ",
+	"Name": "Germans",
+	"Emblem": "session/portraits/emblems/emblem_gaul.png",
+	"History": ".",
+	"Music":[
+			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Germans",
+			"Description": ".",
+			"Technologies":
+			[
+				{
+					"Name": "Realpolitik"
+				 	"History": ".",
+				 	"Description":"Administrative technologies research 5% faster"
+				},
+				{
+ 					"Name": "Lipizzaner Cavalry"
+ 					"History": ".",
+ 					"Description":"Uhlans get +15% hit points and attack"
+				},
+ 					"Name": "Guild Artisans"
+ 					"History": ".",
+ 					"Description":"Trade Workshops produce resources 35% faster"
+				},
+				{
+ 					"Name": "Solingen Steel"
+ 					"History": ".",
+ 					"Description":"Doppelsoldners get +50% hit points and attack, and -33% speed"
+				},
+				{
+ 					"Name": "Dreyse Needle Gun"
+ 					"History": ".",
+ 					"Description":"Gunpowder Infantry +25% range and +25% attack speed"
+				},
+				{
+ 					"Name": "State Socialism"
+ 					"History": ".",
+ 					"Description":"All units +10% health and capture points"
+				},
+				{
+ 					"Name": "Potsdam Giants"
+ 					"History": ".",
+ 					"Description":"Grenadiers +10% health, +10% cost"
+				}
+			],
+			"Heroes":
+			[
+
+				{
+					"Name": "Frederick the Great",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?" 
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Germanic Efficiency",
+			"History": ".",
+			"Description": "All gathering rates +10%." 
+		},
+		{
+			"Name": "Landwehr"
+			"History": ".",
+			"Description":"Militia units +15% attack, +10% hitpoints, and -10% training time"
+		},
+		{
+			"Name": "Germantown farmers"
+			"History": ".",
+			"Description":"Farmsteads can train settlers"
+		},
+		{
+			"Name": "Dichter und Denker"
+			"History": ".",
+			"Description":"University Technologies research 10% faster"
+		}
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/germ_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/germ_civil_centre" 
+		},
+		{
+			"Template": "units/germ_support_settler",
+			"Count": 4
+		},
+		{
+			"Template": "units/germ_infantry_pikeman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/germ_infantry_musketeer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/germ_cavalry_spearman_b" 
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/hedgehog"
+	],
+	"AINames":
+	[
+		"Frederick the Great"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_infantry_melee_b": "units/germ_infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/germ_infantry_musketeer_b"
+	},
+	"SelectableInGameSetup": true
+}

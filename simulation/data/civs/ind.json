@@ -1,0 +1,201 @@
+﻿{
+	"Name": "Indians",
+	"Code": "ind",
+	"Culture":[ "indian" ],
+	"Region":[ "asia", "india" ],
+	
+	"Emblem": "session/portraits/emblems/emblem_mauryas.png",
+	
+	"History": ".",
+	"Music":[
+			{"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
+			{"File":"Sanskrit.ogg", "Type":"peace"},
+			{"File":"Karmic_Confluence.ogg", "Type":"peace"},
+			{"File":"Taj_Mahal.ogg", "Type":"peace"},
+			{"File":"Tales_of_India.ogg", "Type":"peace"},
+			{"File":"Merchants_Village.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Indians",
+			"Description": ".",
+			"Technologies":
+			[
+				{
+					"Name":"Blue Water Navy",
+					"History":".",
+					"Description":"Warship build limit increased."
+				},
+				{
+					"Name":"Armed Fishermen",
+					"History":".",
+					"Description":"Your Fishing boats gain a ranged attack, +10% health and +33% LOS."
+				},
+				{
+					"Name":"Bombay Council",
+					"History":".",
+					"Description":"Your Town Centers start trickling food."
+				},
+				{
+					"Name":"Parchin Kari",
+					"History":".",
+					"Description":"Villagers gather coin from mines faster."
+				},
+				{
+					"Name":"Shivaji's Tactics",
+					"History":".",
+					"Description":"All units get +5% health and attack."
+				},
+				{
+					"Name":"Mughal Architecture",
+					"History":".",
+					"Description":"All Buildings cost -20% wood and build time is decreased 50%."
+				},
+				{
+					"Name":"Dravidian Martial Arts",
+					"History":".",
+					"Description":"All Melee Units +15% damage."
+				},
+				{
+					"Name":"Professional Handlers",
+					"History":".",
+					"Description":"Elephants use -1 population, cost +10% coin."
+				},
+
+				{
+					"Name":"Desert Terror",
+					"History":".",
+					"Description":"Sowars get +0.5x multiplier against infantry and heavy infantry; Zamburaks get +0.5x multiplier against heavy cavalry."
+				},
+				{
+					"Name":"Wootz Steel",
+					"History":"Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
+					"Description":"All sword units +20% attack."
+				}
+			],
+			"Heroes":
+			[
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Population Bonus.",
+			"History": ".",
+			"Description": " +10% population cap bonus (i.e., 550 pop cap instead of the usual 500)."
+		},
+		{
+			"Name":"Elephant Roundup",
+			"History":".",
+			"Description":"Capture up to 5 Gaia elephants and garrison them in the Elephant Stables to gain up to a 25% discount in cost and train time of elephant units."
+		},
+		{
+			"Name": "Wooden Walls.",
+			"History": "The Indians built their city walls out of wood, an abundant natural resource in India.",
+			"Description": "City Walls -50% build time, but also -25% health."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Ashoka's Proselytism.",
+			"History": "Ashoka the Great sent embassies West to spread knowledge of the Buddha.",
+			"Description": "Allied temples and temple technologies -50% cost, in resources and time."
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name":"Elephant Stables",
+			"Class":"SB1",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"Temple",
+			"Phase":"Town",
+			"Special":"Train Elephant Cavalry."
+		},
+		{
+			"Name":"Buddha Statue",
+			"Class":"SB2",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"Buddhism",
+			"Phase":"City",
+			"Special":"Contentment: Units +15% gather and build rates within 50 meters."
+		},
+		{
+			"Name":"Stupa",
+			"Class":"SB2",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"Buddhism",
+			"Phase":"City",
+			"Special":"."
+		},
+		{
+			"Name":"Rice Paddy",
+			"Class":"SB2",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"",
+			"Phase":"",
+			"Special":"."
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/ind_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/ind_civil_centre"
+		},
+		{
+			"Template": "units/ind_support_citizen_female",
+			"Count": 4
+		},
+		{
+			"Template": "units/ind_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ind_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/ind_support_elephant",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/column_closed",
+		"special/formations/wedge"
+	],
+	"AINames":
+	[
+		"Ashokavardhan Maurya",
+		"Bindusara Maurya",
+		"Dasaratha Maurya",
+		"Samprati Maurya",
+		"Salisuka Maurya",
+		"Devavarman Maurya",
+		"Satadhanvan Maurya",
+		"Brihadratha Maurya"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/ind_infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/ind_support_elephant",
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/structures/default_defense_tower": "structures/{civ}_defense_tower"
+	},
+	"SelectableInGameSetup": true
+}

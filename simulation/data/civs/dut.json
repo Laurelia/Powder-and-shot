@@ -1,0 +1,142 @@
+﻿{
+	"Code": "dut",
+	"Culture": "dut",
+	"Name": "Dutch",
+	"Emblem": "session/portraits/emblems/emblem_gaul.png",
+	"History": ".",
+	"Music":[
+			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Dutch",
+			"Description": "N/A",
+			"Technologies":
+			[
+				{
+					"Name":"Coehorn Mortars",
+					"History":"",
+					"Description":"Mortars damage increased by 20%"
+				},
+				{
+					"Name":"Joint-stock companies",
+					"History":"",
+					"Description":"Increase resource gathering rates, trade, and bank build limit."
+				},
+				{
+					"Name":"Bank of Rotterdam",
+					"History":"",
+					"Description":"Passive coin trickle increased"
+				},
+				{
+					"Name":"Tulip Speculation",
+					"History":"",
+					"Description":"Banks generate +15% coin"
+				},
+				{
+					"Name":"Coffee Trade",
+					"History":"",
+					"Description":"Increase Bank Build Limit by 2, increase training time for military units by 10%"
+				}
+			],
+			"Heroes":
+			[
+
+				{
+					"Name": "William of Orange",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?" 
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Bank of Amsterdam",
+			"History":".",
+			"Description":"Passively trickle coin."
+		},
+		{
+			"Name":"Religious Freedom",
+			"History":".",
+			"Description":"Two Religions can be chosen, but faith gather rates are decreased."
+		},
+		{
+			"Name":"United Provinces",
+			"History":".",
+			"Description":"-10% Administrative technology cost ."
+		},
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+		{
+			"Name":"Bank"
+			"Class":"",
+			"Emblem":"emblem.png",
+			"History": ".",
+			"Requirements":".",
+			"Phase":"Age of Discovery"
+			"Special":"Passively generates coin"
+		},
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/dut_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/dut_civil_center" 
+		},
+		{
+			"Template": "units/dut_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/dut_infantry_pikeman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/dut_infantry_musketeer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/dut_cavalry_spearman_b" 
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+	],
+	"AINames":
+	[
+		"William of Orange"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_infantry_melee_b": "units/dut_infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/dut_infantry_musketeer_b"
+	},
+	"SelectableInGameSetup": true
+}

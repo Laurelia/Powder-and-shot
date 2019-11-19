@@ -1,0 +1,186 @@
+﻿{
+	"Code": "span",
+	"Culture": "span",
+	"Name": "Spanish",
+	"Emblem": "session/portraits/emblems/emblem_iber.png",
+	"History": ".",
+	"Music":[
+			{"File":"An_old_Warhorse_goes_to_Pasture.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"},
+			{"File":"Harsh_Lands_Rugged_People.ogg", "Type":"peace"},
+			{"File":"Tale_of_Warriors.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Spanish",
+			"Description": "N/A",
+			"Technologies":
+			[
+				{
+					"Name":"Caballeros",
+					"History":"",
+					"Description":"Lancers get +1.0x multiplier against infantry"
+				},
+				{
+					"Name":"Tercio Tactics",
+					"History":"",
+					"Description":"Pikemen, Rodeleros, and Musketeers get +8% health when in tercio formation"
+				},
+				{
+					"Name":"Armada",
+					"History":"",
+					"Description":"Warships +30% health"
+				},
+				{
+					"Name":"Spanish Treasure Fleet",
+					"History":"",
+					"Description":"Galleons are no longer affected by the warship build limit"
+				},
+				{
+					"Name":"Corselet",
+					"History":"",
+					"Description":"All Heavy Infantry +3 hack/pierce armor, -10% speed"
+				},
+				{
+					"Name":"Cadiz Cortes",
+					"History":"",
+					"Description":"-10% training time for guerrero units"
+				},
+				{
+					"Name":"Encomiendas",
+					"History":"",
+					"Description":"Settlers gather 20% faster from Fields and Plantations but gather 5% slower from anything else"
+				},
+				{
+					"Name":"Estancias",
+					"History":"",
+					"Description":"Town Centers Support +25 Population"
+				},
+				{
+					"Name": "Haciendas",
+					"History": "Like Northern Africa, the Iberian Peninsula is horse country, capable of producing up to 100,000 new mounts each year.",
+					"Description": "The resource cost of training horse-mounted units (cavalry) is reduced by 5% per horse garrisoned in the stable."
+				}
+			],
+			"Heroes":
+			[
+
+				{
+					"Name": "Juan de Palafox",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?" 
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Catholic Monarchy",
+			"History":".",
+			"Description":"-10% research time for catholic religious techs."
+		},
+		{
+			"Name":"Treaty of Torsedillas",
+			"History":".",
+			"Description":"+10% territory influence."
+		},
+		{
+			"Name":"Plaza de Armas",
+			"History":".",
+			"Description":"The Spanish start out with a Presidio (Fortified Town Center) and prefabricated set of stone walls."
+		},
+		{
+			"Name":"Spanish Square",
+			"History":".",
+			"Description":"Units can assume the Tercio formation, which replaces the pike square."
+		}
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+		{
+			"Name": "Presidio",
+			"Class": "",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "Fortified Town Center"
+		},
+		{
+			"Name": "",
+			"Class": "",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		},
+		{
+			"Name": "Kennel",
+			"Class": "",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "Trains Spanish War Dogs"
+		},
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/span_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/span_civil_centre" 
+		},
+		{
+			"Template": "units/span_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/span_infantry_pikeman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/span_infantry_musketeer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/span_cavalry_spearman_b" 
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/tercio",
+	],
+	"AINames":
+	[
+		"Juan de Palafox"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_infantry_melee_b": "units/span_infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/span_infantry_musketeer_b"
+	},
+	"SelectableInGameSetup": true
+}

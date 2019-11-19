@@ -1,0 +1,195 @@
+﻿{
+	"Code": "chin",
+	"Culture": "chin",
+	"Name": "Chinese",
+	"Emblem": "session/portraits/emblems/emblem_chinese.png",
+	"History": ".",
+	"Music":[
+		{"File":"Hill_of_Sorrows.ogg", "Type":"peace"},
+		{"File":"Red_Dawn.ogg", "Type":"peace"},
+		{"File":"Bamboo_Village.ogg", "Type":"peace"},
+		{"File":"Sky_Princess.ogg", "Type":"peace"},
+		{"File":"Confucius.ogg", "Type":"peace"}	
+	],
+	"Factions":
+	[
+		{
+			"Name": "Chinese",
+			"Description": "N/A",
+			"Technologies":
+			[
+				{
+					"Name":"Acupuncture",
+					"History":"",
+					"Description":"Unit train time -20%"
+				},
+				{
+					"Name":"Art of War",
+					"History":"",
+					"Description":"Military Technologies -50% research time"
+				},
+				{
+					"Name":"Western Reforms",
+					"History":"",
+					"Description":"All units get +8% health and deal +8% damage"
+				},
+				{
+					"Name":"Banner Schools",
+					"History":"",
+					"Description":"Batch training speed increased"
+				},
+				{
+					"Name":"Silk Markets",
+					"History":"",
+					"Description":"Traders +20% gain"
+				},
+				{
+					"Name":"Sumptuary Laws",
+					"History":"",
+					"Description":"Villagers +10% health"
+				},
+				{
+					"Name": "Nationalized Industries",
+					"History": "",
+					"Description": "All gather rates +25%, but trading and bartering penalized with -50% profit."
+				}
+			],
+			"Heroes":
+			[
+
+				{
+					"Name": ".",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?" 
+				}
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+
+		{
+			"Name": "Federated States",
+			"History": ".",
+			"Description": "The Chinese have a +10% population cap bonus (i.e., 550 pop cap instead of the usual 500)."
+		},
+		{
+			"Name":"Banner Armies",
+			"History":".",
+			"Description":"Units train faster in batches."
+		},
+		{
+			"Name":"Imperial Bureaucracy",
+			"History":".",
+			"Description":"The Chinese can build the Government Center in the age of discovery."
+		},
+		{
+			"Name":"Confucian Wisdom",
+			"History":".",
+			"Description":"Technologies at the University research 10% faster."
+		}
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+		{
+			"Name":"District Gateway",
+			"Class":"SB",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"",
+			"Phase":"",
+			"Special":"Nearby Buildings +50% loyalty regen."
+		},
+		{
+			"Name":"Bixie",
+			"Class":"SB",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"",
+			"Phase":"",
+			"Special":"Nearby Buildings train units faster."
+		},
+		{
+			"Name":"Rice Paddy",
+			"Class":"SB",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"",
+			"Phase":"",
+			"Special":"Has twice the health of a field."
+		},
+		{
+			"Name":"Bamboo Grove",
+			"Class":"SB",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"",
+			"Phase":"",
+			"Special":"Infinite source of wood."
+		},
+		{
+			"Name":"Buddha Statue",
+			"Class":"SB",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"Buddhism",
+			"Phase":"",
+			"Special":"."
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/chin_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/chin_civil_centre" 
+		},
+		{
+			"Template": "units/chin_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/chin_infantry_pikeman_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/chin_infantry_musketeer_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/chin_cavalry_spearman_b" 
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+	],
+	"AINames":
+	[
+		"Hongwu Emperor"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/default_infantry_melee_b": "units/chin_infantry_pikeman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/chin_infantry_musketeer_b"
+	},
+	"SelectableInGameSetup": true
+}
