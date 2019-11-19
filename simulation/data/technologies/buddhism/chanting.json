@@ -1,0 +1,11 @@
+{
+	"genericName": "Chanting",
+	"description": ".",
+	"cost": {"wood": 500, "faith": 300},
+	"researchTime": 40,
+	"requirements": {"all": [{"tech": "buddhism"}]},
+	"requirementsTooltip": "Requires Buddhism.",
+	"icon": "enlightenment.png",
+	"tooltip": "Your Bhikkhu now increase the gather rate of nearby villagers.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
