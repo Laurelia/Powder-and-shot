@@ -1,0 +1,13 @@
+{
+	"type": "formation",
+	"affects": ["Infantry Pike Sword Arquebus Musket"],
+	"modifications": [
+		{ "value": "Attack/Melee/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Crush", "multiply": 1.2 },
+		{ "value": "Attack/Capture/Value", "multiply": 1.2 }
+	],
+	"auraName": "Tercio Tactics",
+	"auraDescription": "+20% attack and +20% capture for pikemen, swordsmen, and medium gunpowder units in this officer's formation.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}
