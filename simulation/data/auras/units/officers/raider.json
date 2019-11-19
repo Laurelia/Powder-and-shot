@@ -1,0 +1,13 @@
+{
+	"type": "formation",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Looter/Resource/metal", "add": 1.05 },
+		{ "value": "Looter/Resource/food", "add": 1.05 },
+		{ "value": "Looter/Resource/wood", "add": 1.05 },
+		{ "value": "Looter/Resource/stone", "add": 1.05 },
+		{ "value": "Looter/Resource/coin", "add": 1.05 }
+	],
+	"auraName": "Raider",
+	"auraDescription": "+5% loot for units in this officer's formation."
+}
