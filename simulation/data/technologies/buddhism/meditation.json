@@ -1,0 +1,13 @@
+{
+	"genericName": "Meditation",
+	"description": ".",
+	"cost": {"coin": 250, "faith": 500},
+	"researchTime": 40,
+	"icon": "enlightenment.png",
+	"modifications": [
+		{"value": "ResourceGatherer/Rates/faith.prayer", "multiply": 1.05}
+	],
+	"affects": ["Bhikku"],
+	"tooltip": "Your Bhikkus pray faster.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
