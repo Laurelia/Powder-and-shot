@@ -1,0 +1,7 @@
+{
+	"type": "formation",
+	"auraName": "Benefactor",
+	"auraDescription": "Units in this officer's formation will slowly regenerate health over time when idle.",
+	"modifications": [{"value": "Health/IdleRegenRate", "add": 0.5}],
+	"affects": ["Unit"]
+}
