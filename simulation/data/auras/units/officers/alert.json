@@ -1,0 +1,11 @@
+{
+	"type": "formation",
+	"affects": ["Soldier"],
+	"modifications": [
+    { "value": "Vision/Range", "multiply": 1.25 }
+		
+	],
+
+	"auraName": "Alert",
+	"auraDescription": "Units +25% vision range while in formation."
+}
