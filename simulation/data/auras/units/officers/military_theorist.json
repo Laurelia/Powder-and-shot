@@ -1,0 +1,22 @@
+{
+	"type": "formation",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Promotion/RequiredXp", "multiply": 0.75, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Hack", "multiply": 1.05, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Pierce", "multiply": 1.05, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Crush", "multiply": 1.05, "affects": "Soldier" },
+		{ "value": "Attack/Ranged/Hack", "multiply": 1.05, "affects": "Soldier" },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.05, "affects": "Soldier" },
+		{ "value": "Attack/Ranged/Crush", "multiply": 1.05, "affects": "Soldier" },
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.75, "affects": "Military" },
+		{ "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.75, "affects": "Military" },
+		{ "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.75, "affects": "Military" },
+		{ "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.75, "affects": "Military" },
+		{ "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.75, "affects": "Military" },
+		{ "value": "ProductionQueue/TechCostMultiplier/coin", "multiply": 0.75, "affects": "Military" }
+
+	],
+	"auraName": "Military Theorist",
+	"auraDescription": "Units in this officer's formation require 25% less experience to promote and gain a 5% attack bonus. Additionally, all military technologies research +25% faster and cheaper."
+}
