@@ -1,0 +1,22 @@
+{
+	"genericName": "Madrasas",
+	"description": ".",
+	"cost": {"coin": 250, "faith": 500},
+	"researchTime": 40,
+	"icon": "enlightenment.png",
+	"supersedes": "research_speed_theology",
+	"requirements": {"tech": "islam"},
+	"requirementsTooltip": "Requires Islam.",
+	"modifications": [
+		{"value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.9},
+		{"value": "ProductionQueue/TechCostMultiplier/coin", "multiply": 0.9},
+    {"value": "ProductionQueue/TechCostMultiplier/faith", "multiply": 0.9},
+    {"value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.9}
+	],
+	"affects": ["Structure !Blacksmith"],
+	"tooltip": "Technologies at all buildings, except the Blacksmith, -10% cost and -10% research time.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
