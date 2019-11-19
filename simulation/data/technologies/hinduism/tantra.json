@@ -7,11 +7,11 @@
 	]},
 	"icon": "hindu_kali.png",
 	"researchTime": 60,
-	"tooltip": "Citizens train 10% faster.",
+	"tooltip": "Villagers train 10% faster.",
 	"requirementsTooltip": "Requires Hinduism.",
   	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.9}
 	],
-	"affects": ["Citizen"],
+	"affects": ["Villager"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
