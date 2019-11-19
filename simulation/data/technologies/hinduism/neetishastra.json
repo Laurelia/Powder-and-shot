@@ -1,0 +1,14 @@
+{
+	"genericName": "Neetishastra",
+	"description": "."
+	"cost": {"coin": 600, "faith": 1200},
+	"researchTime": 40,
+  "supersedes": "research_speed_theology"
+	"icon": "enlightenment.png",
+	"modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
+	],
+	"affects": ["Temple"],
+	"tooltip": "Reduce research time of temple techs by 10%.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
