@@ -1,10 +1,9 @@
 {
-	"pair": "hellenes/pair_naval_imperial",
-	"genericName": "Arsenal of Philon",
+	"genericName": "Naval Architects",
 	"description": "Unlock health regeneration for your Warships.",
 	"cost": {"food": 0, "wood": 500, "stone": 500, "metal": 0},
-	"requirements": {"tech": "phase_imperial"},
-	"requirementsTooltip": "Unlocked in Empire Phase.",
+	"requirements": {"tech": "phase_4"},
+	"requirementsTooltip": "Unlocked in The Age of Revolution.",
 	"icon": "military_engineers.png",
 	"researchTime": 40,
 	"tooltip": "Warships slowly regenerate when damaged.",
