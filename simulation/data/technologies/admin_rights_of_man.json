@@ -1,0 +1,16 @@
+{
+	"genericName": "Rights of Man",
+	"description": "The concept that everyone is born with certain unalienable rights.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "coin": 300},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "political_face.png",
+	"researchTime": 90,
+	"tooltip": "Capturable units and buildings +8% capture points for more cultural happiness. Technology research time decreased by 10%",
+	"modifications": [
+		{"value": "Capturable/CapturePoints", "multiply": 1.08},
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
+	],
+	"affects": ["Structure", "Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
