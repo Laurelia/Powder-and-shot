@@ -11,8 +11,9 @@
     <BuildTime>80</BuildTime>
     <Resources>
       <stone>100</stone>
-      <metal>100</metal>
-      <coin>0</coin>
+      <metal>0</metal>
+      <coin>50</coin>
+      <faith>50</faith>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -25,12 +26,11 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>gaia</Civ>
     <GenericName>Shrine</GenericName>
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">-City Town CultStatue</VisibleClasses>
-    <Tooltip>Build these to generate faith over time. Task units to pray at the statue to generate faith even faster.</Tooltip>
-    <Icon>enlightenment.png</Icon>
+    <Tooltip>Generate faith over time. Tasking units to pray at shrines will generate faith even faster.</Tooltip>
+    <Icon>technologies/enlightenment.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
