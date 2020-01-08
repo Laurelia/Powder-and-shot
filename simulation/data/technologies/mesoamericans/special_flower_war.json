@@ -1,0 +1,15 @@
+{
+	"genericName": "Flower War",
+	"cost": {"food": 450, "wood": 0, "stone": 0, "coin": 750, "faith": 0},
+  "requirements": {"all": [{"tech": "phase_town"}, {"civ": "aztec"}]},
+	"requirementsTooltip": "Unlocked in the Reformation.",
+	"icon": "payment.png",
+	"researchTime": 60,
+	"tooltip": "All Melee units +3 attack.",
+	"modifications": [
+		{"value": "Attack/Melee/Hack", "add": 3, "affects": "Infantry Melee"},
+		{"value": "Attack/Melee/Pierce", "add": 3, "affects": "Infantry Melee"},
+		{"value": "Attack/Melee/Crush", "add": 3, "affects": "Infantry Melee"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
