@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+	structures/cistern_unit_health
+	structures/cistern_field_health
+  </Auras>
+  <BuildRestrictions>
+    <Category>Cistern</Category>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>200</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime>90</BuildTime>
+    <Resources>
+      <stone>200</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="15.0" depth="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>800</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Cistern</GenericName>
+    <Icon>structures/cistern.png</Icon>
+    <Tooltip>Increase the health of all units and improve nearby farming.</Tooltip>
+    <VisibleClasses datatype="tokens">Village Cistern</VisibleClasses>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="14.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+	    mesoamericans/health_fields_cistern
+	    mesoamericans/special_cenotes
+    </Technologies>
+  </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+	    <coin>0</coin>
+      <faith>0</faith>
+    </Rates>
+    <Interval>5000</Interval>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_storehouse.xml</select>
+      <constructed>interface/complete/building/complete_storehouse.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <alert_raise>interface/alarm/alarm_alert_0.xml</alert_raise>
+      <alert_end>interface/alarm/alarm_alert_1.xml</alert_end>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence disable=""/>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+    <Actor>structures/mesoamericans/cistern.xml</Actor>
+  </VisualActor>
+</Entity>
