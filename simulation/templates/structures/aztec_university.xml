@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_university">
+  <Identity>
+    <Civ>aztecs</Civ>
+    <SpecificName>Calmecatl</SpecificName>
+	<GenericName>School of Nobles</GenericName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mesoamericans/calmecatl.xml</Actor>
+    <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
+  </VisualActor>
+</Entity>
