@@ -6,6 +6,7 @@
       <food>0</food>
       <wood>0</wood>
       <stone>100</stone>
+      <coin>50</coin>
       <faith>100</faith>
     </Resources>
   </Cost>
