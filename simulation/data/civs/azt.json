@@ -1,9 +1,9 @@
-﻿{
+{
 	"Code":"aztec",
 	"Culture":"Aztec",
 	"Name":"Aztecs",
 	"Emblem":"session/portraits/emblems/emblem_mexica.png",
-	"History":"Nahua people from the current south of USA or Sonora, founded their city state Mexico-Tenochtitlan in 1325. They dominated a large part of central and southern Mexico until the arrival of the Spanish in 1521 that together with the subject peoples ended the Mexica Empire in 1521.",
+	"History":"The Nahua were a collection native american peoples dwelling in modern mexico. The most famous of the nahua peoples were the Aztecs, who founded their city state Tenochtitlan in 1325. They dominated a large part of central and southern Mexico until the arrival of the Spanish in 1521 that together with the subject peoples ended the Aztec Empire.",
 	"Music":[
 			{"File":"Chee_Zee_Jungle.ogg", "Type":"peace"},
 			{"File":"Cloud_People.ogg", "Type":"peace"},
@@ -14,13 +14,13 @@
 	[
 		{
 			"Name":"Aztecs",
-			"Description":"A Nahua people of the center of México.",
+			"Description":"A Nahua people from central México.",
 			"Technologies":
 			[
 				{
-					"Name":"The Chinampa",
+					"Name":"Flower Wars",
 					"History":".",
-					"Description":"Enables the chinampa."
+					"Description":"All melee units deal +3 damage."
 				}
 			],
 			"Heroes":
@@ -52,17 +52,17 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"",
+			"Name":"Nahua Goldworking",
 			"History":".",
-			"Description":"Metal mining gathering rates increased by +10% for each passing age."
+			"Description":"Coin mining gathering rates increased by +10% for each passing age."
 		}
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"Tiangis",
-			"History":"he merchants and traders are 25% faster.",
-			"Description":"."
+			"Name":"Triple Alliance",
+			"History":".",
+			"Description":"+10% attack for allied melee infantry."
 		}
 	],
 	"Structures":
@@ -152,86 +152,5 @@
 	},
 	"SelectableInGameSetup": true
 }
-
-
-					"Name":"
-
-@Flower War
-#
-$
-
-@House of Darts
-#
-$The Barracks gains a ranged attack
-
-@Poisoned Arrows
-#
-$
-
-High Priest of Ixtlilton
-The Aztec War Chief gets +50% hit points and attack, and can train Janey the Pet Jaguars	
-Ages discovery
-1
-Aztec Home City 1 (Smoking Mirror)
-Smoking Mirror
-The Aztec War Chief gets +35% speed and +2 melee attack AOE
- pochteca - chance of successful espionage increases with trade level in an enemy city 	[aztecs]
-Temple of Centeotl Support
-Ships 18 Macehualtins and Macehualtins get +25% hit points; costs 1,000 coin	
-Ages fortress
-10
-Aztec Home City 5 (Temple of Coatlicue Support)
-Temple of Coatlicue Support
-Ships 10 Arrow Knights and Arrow Knights get +20% attack; costs 1,000 coin	
-Ages fortress
-10
-Aztec Home City 5 (Great Temple of Huiztilopochtli Support)
-Great Temple of Huiztilopochtli Support
-Ships 11 Skull Knights and Skull Knights get +1 melee attack AOE; costs 2,000 coin	
-Ages industrial
-25
-Aztec Home City 5 (Temple of Xipe Totec Support)
-Temple of Xipe Totec Support
-Ships 11 Coyote Runners and Coyote Runners get +20% attack; costs 1,000 coin	
-Ages fortress
-10
-Aztec Home City 5 (Temple of Xoltol Support)
-Temple of Xolotl 
-Ships 10 Villagers and Villagers gather from Farms and Plantations 10% faster; costs 1,000 coin	
-Ages fortress
-10
-Aztec Home City 5 (Great Temple of Quetzalcoatl Support)
-Great Temple of Quetzalcoatl Support
-Ships 18 Jaguar Prowl Knights and Jaguar Prowl Knights get +25% attack; costs 2,000 coin	
-Ages industrial
-25
-Aztec Home City 5 (Temple of Xochipilli Support)
-Temple of Xochipilli Support
-Ships 12 Puma Spearmen and Puma Spearmen get +20% speed; costs 1,000 coin	
-Ages fortress
-10
-Aztec Home City 5 (Temple of Tlaloc Support)
-Temple of Tlaloc Support
-
-Ruthlessness
-Coyote Runners, Macehualtins, and Puma Spearmen get +0.5x multiplier against villagers	
-
-Scorched Earth
-Arrow Knights, Eagle Runner Knights, and Jaguar Prowl Knights get +50% siege attack
-
-@Naualoztomeca - merchent spies
-#
-$Espionage has its cost reduced by 5% for every trader you have
-
-
-
- tequiha - archer
- tiamanih - "captor" a commoner who has taken captives 	[aztecs]
- cuextecatl - 	[aztecs]
- papaloti - a warrior who has taken three captives who wears a butterfly like banner on their back	[aztecs]
- otomiti - a fierce warrior recruited from an allied tribe	[aztecs]
- shorn one - the highest ranking warriors in tlan'cala society, they swear an oath never to step backwards from a battle. named for how they sheve their heads except for one long braid		[aztecs]
- 
-
 
 
