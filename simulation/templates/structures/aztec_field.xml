@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>aztec</Civ>
-    <GenericName>Field</GenericName>
+    <GenericName>Maize Field</GenericName>
     <SpecificName>Mil-pa</SpecificName>
   </Identity>
   <VisualActor>
