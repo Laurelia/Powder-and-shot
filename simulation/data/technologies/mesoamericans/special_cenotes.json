@@ -1,0 +1,14 @@
+{
+	"genericName": "Cenotes",
+	"cost": {"food": 0, "wood": 0, "stone": 500, "faith": 500},
+  "requirements": {"all": [{"tech": "phase_city"}, {"civ": "maya"}]},
+  "requirementsTooltip": "Unlocked in the Enlightenment.",
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"tooltip": "Upgrade your cisterns to cenotes, which trickle faith and can be prayed.",
+	"modifications": [
+		{"value": "Promotion1/RequiredXP", "replace": "0"}
+	],
+  	"affects": ["Cistern"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
