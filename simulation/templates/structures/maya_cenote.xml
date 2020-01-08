@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/maya_cistern">
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Cenote</GenericName>
+    <History>The Mayans performed human sacrifices to the rain god Cha'ak by drowning victims in cenotes</History>
+  </Identity>
+  <ResourceDropsite>
+    <Types>faith</Types>
+	<Sharable>false</Sharable>
+  </ResourceDropsite>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Amount>Infinity</Amount>
+    <Type>faith.praise</Type>
+    <MaxGatherers>5</MaxGatherers>
+	<DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Rates>
+      <faith>1.0</faith>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
+</Entity>
