@@ -1,0 +1,7 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"modifications": [{"value": "Vision/Range", "add": 1}],
+	"auraName": "Astronomy",
+	"auraDescription": "Structures +1 Line of Sight for every observatory built."
+}
