@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense_wall">
+<Entity parent="template_structure_defense">
+	  <Armour>
+    <Hack>2.5</Hack>
+    <Pierce>10</Pierce>
+    <Crush>1</Crush>
+    <Foundation>
+      <Hack>1</Hack>
+      <Pierce>5</Pierce>
+      <Crush>1</Crush>
+    </Foundation>
+  </Armour>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>Watchtower</Category>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>250</CapturePoints> 
+    <RegenRate>0</RegenRate> 
+    <GarrisonRegenRate>3</GarrisonRegenRate> 
+  </Capturable>
   <Cost>
     <BuildTime>18</BuildTime>
+    <Resources>
+      <wood>50</wood>
+      <stone>0</stone>
+    </Resources>
   </Cost>
   <Footprint>
     <Square width="5.0" depth="5.0"/>
@@ -24,30 +47,45 @@
     </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
-    <Max>1000</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
-    <SpecificName>Watchtower</SpecificName>
-    <GenericName>WatchTower</GenericName>
-    <VisibleClasses datatype="tokens">-StoneWall Palisade Tower</VisibleClasses>
+    <GenericName>Watchtower</GenericName>
+	      <Tooltip>Build in neutral and own territories to scout areas of the map. Loyalty slowly decays while in neutral territory unless garrisoned with a soldier.</Tooltip>
     <Icon>structures/palisade_wall.png</Icon>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <VisibleClasses datatype="tokens">Village Wood Watchtower</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="5.0" depth="5.0"/>
     <ControlPersist/>
   </Obstruction>
+  <Loot>
+    <xp>100</xp>
+    <food>0</food>
+    <wood>8</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+	</Loot>
   <TerritoryInfluence disable=""/>
-   <Upgrade>
-    <Outpost>
-      <Entity>structures/{civ}_outpost</Entity>
-      <Tooltip>Outposts have double health and slower loyalty drain.</Tooltip>
-	  <RequiredTechnology>phase_town</RequiredTechnology>
-      <Cost>
-		   <wood>50</wood>
-      </Cost>
-      <Time>20</Time>
-    </Outpost>
-  </Upgrade>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_tower.xml</select>
+      <constructed>interface/complete/building/complete_tower.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>18.0</HeightOffset>
+  </StatusBars>
+  <TerritoryDecay>
+    <DecayRate>2</DecayRate>
+  </TerritoryDecay>
+  <Vision>
+    <Range>70</Range>
+  </Vision>
   <VisualActor>
     <Actor>props/special/palisade_rocks_watchtower.xml</Actor>
   </VisualActor>
