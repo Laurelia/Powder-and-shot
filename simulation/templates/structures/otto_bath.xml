@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+    structures/pop_bonus_civic
+    structures/hygiene
+  </Auras>
+  <BuildRestrictions>
+    <Category>Hall</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+	<Population>5</Population>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>250</stone>
+      <coin>250</coin>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="25.0" depth="25.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>otto</Civ>
+    <GenericName>Turkish Bath</GenericName>
+    <SpecificName>Hamam</SpecificName>
+    <Icon>structures/pers_hall.png</Icon>
+    <Tooltip>Increase the health of all Ottoman units and gain a trickle of Coin for each Bath House built.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>50</stone>
+    <metal>50</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+	  ottomans/health_units_01
+	  ottomans/health_units_02
+    </Technologies>
+  </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <coin>1.0</coin>
+      <food>0.0</food>
+      <wood>0.0</wood>
+      <stone>0.0</stone>
+      <metal>0.0</metal>
+      </Rates>
+    <Interval>4000</Interval>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>38</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/persians/hall.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>
