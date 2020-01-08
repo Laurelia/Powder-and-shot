@@ -1,0 +1,14 @@
+{
+	"genericName": "Sacbeob",
+	"description": "Increases movement rate of traders, which in turn increases trade income.",
+	"cost": {"food": 0, "wood": 0, "stone": 1000, "coin": 1000},
+  "requirements": {"all": [{"tech": "phase_city"}, {"civ": "maya"}]},
+  "requirementsTooltip": "Unlocked in the Enlightenment.",
+	"icon": "wheel.png",
+	"researchTime": 40,
+	"tooltip": "Traders +20% Walk Speed.",
+	"modifications": [
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.20, "affects":"Trader"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
