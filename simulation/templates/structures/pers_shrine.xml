@@ -3,13 +3,6 @@
   <Auras datatype="tokens">
     structures/sufi_wisdom
   </Auras>
-  <BuildRestrictions>
-    <Category>Shrine</Category>
-    <Distance>
-      <FromClass>Shrine</FromClass>
-      <MinDistance>150</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
     <BuildTime>120</BuildTime>
