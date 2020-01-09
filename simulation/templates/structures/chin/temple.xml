@@ -14,6 +14,18 @@
   <Obstruction>
     <Static width="21" depth="24"/>
   </Obstruction>
+  <Promotion1>
+    <Entity>structures/chin/temple_gong</Entity>
+  </Promotion1>
+  <Promotion2>
+    <Entity>structures/chin/temple_pagoda</Entity>
+  </Promotion2>
+  <Promotion3>
+    <Entity>structures/chin/temple_abbey</Entity>
+  </Promotion3>
+  <Promotion4>
+    <Entity>structures/chin/temple_mosque</Entity>
+  </Promotion4>
   <VisualActor>
     <Actor>structures/chinese/temple.xml</Actor>
   </VisualActor>
