@@ -26,20 +26,23 @@
       structures/{civ}_storehouse
       structures/{civ}_farmstead
       structures/{civ}_field
+      structures/{civ}/field
       structures/{civ}_corral
       structures/{civ}_outpost
       other/wallset_palisade
       structures/{civ}_sentry_tower
       structures/{civ}_dock
       structures/{civ}_barracks
-      structures/{civ}_blacksmith
+      structures/{civ}/barracks
+      structures/{civ}/arsenal
       structures/{civ}_temple
+      structures/{civ}/temple
       structures/{civ}_market
       structures/{civ}_defense_tower
       structures/{civ}_wallset_stone
       structures/{civ}_civil_centre
       structures/{civ}_fortress
-      structures/{civ}_wonder
+      structures/{civ}/castle
     </Entities>
   </Builder>
   <Cost>
