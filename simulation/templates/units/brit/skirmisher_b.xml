@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_skirmisher">
+<Entity parent="template_unit_infantry_global_skirmisher">
   <Identity>
     <Civ>brit</Civ>
     <GenericName>British Skirmisher</GenericName>
     <SpecificName>Ranger</SpecificName>
     <SelectionGroupName>units/brit/skirmisher_b</SelectionGroupName>
   </Identity>
+  <Promotion>
+    <Entity>units/brit/skirmisher_a</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/global/union_light_infantry.xml</Actor>
   </VisualActor>
