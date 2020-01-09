@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_gunpowder_militia">
+  <Armour>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+    <Crush op="add">1</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Pierce op="mul">1.25</Pierce>
+    </Ranged>
+    <Capture>
+      <Value op="add">1</Value>
+    </Capture>
+  </Attack>
+  <Cost>
+    <BuildTime op="mul">1.25</BuildTime>
+  </Cost>
+  <Health>
+    <Max op="mul">1.1</Max>
+  </Health>
+  <ResourceGatherer>
+    <BaseSpeed op="mul">0.9</BaseSpeed>
+  </ResourceGatherer>
+  <Identity>
+    <Civ>germ</Civ>
+    <GenericName>Home Guard</GenericName>
+    <SpecificName>Landwehr</SpecificName>
+    <SelectionGroupName>units/germ/militia_b</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/germ/militia_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/global/union_line_infantry.xml</Actor>
+  </VisualActor>
+</Entity>
