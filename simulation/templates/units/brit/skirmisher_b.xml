@@ -7,6 +7,6 @@
     <SelectionGroupName>units/brit/skirmisher_b</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/britons/union_light_infantry.xml</Actor>
+    <Actor>units/global/union_light_infantry.xml</Actor>
   </VisualActor>
 </Entity>
