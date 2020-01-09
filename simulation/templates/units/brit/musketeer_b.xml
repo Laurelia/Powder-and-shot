@@ -7,6 +7,6 @@
     <SelectionGroupName>units/brit/musketeer_b</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/britons/union_infantry_private_ranged.xml</Actor>
+    <Actor>units/global/union_line_infantry.xml</Actor>
   </VisualActor>
 </Entity>
