@@ -6,6 +6,9 @@
     <SpecificName>Redcoat</SpecificName>
     <SelectionGroupName>units/brit/musketeer_b</SelectionGroupName>
   </Identity>
+  <Promotion>
+    <Entity>units/brit/musketeer_a</Entity>
+  </Promotion>
   <VisualActor>
     <Actor>units/global/union_line_infantry.xml</Actor>
   </VisualActor>
