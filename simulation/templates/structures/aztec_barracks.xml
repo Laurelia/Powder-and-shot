@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Cost>
     <Resources>
@@ -16,10 +16,13 @@
   <Identity>
     <Civ>aztec</Civ>    
     <SpecificName>Nechicolcalmeh</SpecificName>
-	  <GenericName>War Hut</GenericName>
+	  <GenericName>Warrior's Lodging</GenericName>
 	  <Icon>structures/mesoamerican_barracks.png</Icon>
     <Tooltip>Train Aztec citizen-soldiers. Research improvements for Aztec units.</Tooltip>
   </Identity>
+  <Promotion1>
+    <Entity>structures/aztec_house_of_darts</Entity>
+  </Promotion1>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>
   </Obstruction>
