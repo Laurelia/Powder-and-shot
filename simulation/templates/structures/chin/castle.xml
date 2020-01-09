@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_fortress">
+<Entity parent="template_structure_military_castle">
   <Footprint>
     <Square width="38.0" depth="39.0"/>
     <Height>8.0</Height>
@@ -11,7 +11,6 @@
     <Civ>chin</Civ>
     <SpecificName>Yào Sài</SpecificName>
     <Tooltip>Build siege engines. Garrison up to 20 soldiers inside for stout defense.</Tooltip>
-    <History>(History goes here.)</History>
   </Identity>
   <Obstruction>
     <Static width="34.0" depth="34.0"/>
@@ -20,8 +19,6 @@
     <Entities datatype="tokens">
       units/{civ}_siege_shoushe
       units/{civ}_siege_tower
-      units/{civ}_hero_han_xin
-      units/{civ}_hero_liu_bang
       units/{civ}_champion_cavalry
       units/{civ}_champion_infantry_archer
       units/{civ}_champion_infantry_swordsman
