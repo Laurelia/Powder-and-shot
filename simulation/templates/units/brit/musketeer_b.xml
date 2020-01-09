@@ -1,11 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_musketeer">
   <Identity>
     <Civ>brit</Civ>
-    <Lang>greek</Lang>
     <GenericName>British Musketeer</GenericName>
-    <SpecificName>British Musketeer</SpecificName>
-    <SelectionGroupName>units/brit_infantry_ranged_musketeer</SelectionGroupName>
+    <SpecificName>Redcoat</SpecificName>
+    <SelectionGroupName>units/brit/musketeer_b</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/britons/union_infantry_private_ranged.xml</Actor>
